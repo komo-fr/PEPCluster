@@ -1,523 +1,560 @@
-pep_id,Title,louvain_group_id,group_category,Type,Status,Created_dt,group_name
-1,PEP Purpose and Guidelines,0,A,Process,Active,2000-06-13,A-09
-9,Sample Plaintext PEP Template,0,A,Process,Withdrawn,2001-08-14,A-09
-12,Sample reStructuredText PEP Template,0,A,Process,Active,2002-08-05,A-09
-13,Python Language Governance,0,A,Informational,Active,2018-12-16,A-09
-216,Docstring Format,0,A,Informational,Rejected,2000-07-31,A-09
-224,Attribute Docstrings,0,A,Standards Track,Rejected,2000-08-23,A-09
-226,Python 2.1 Release Schedule,0,A,Informational,Final,2000-10-16,A-09
-256,Docstring Processing System Framework,0,A,Standards Track,Rejected,2001-06-01,A-09
-257,Docstring Conventions,0,A,Informational,Active,2001-05-29,A-09
-258,Docutils Design Specification,0,A,Standards Track,Rejected,2001-05-31,A-09
-287,reStructuredText Docstring Format,0,A,Informational,Active,2002-03-25,A-09
-331,Locale-Independent Float/String Conversions,0,A,Standards Track,Final,2003-07-19,A-09
-666,Reject Foolish Indentation,0,A,Standards Track,Rejected,2001-12-03,A-09
-8000,Python Language Governance Proposal Overview,0,A,Informational,Active,2018-08-24,A-09
-8001,Python Governance Voting Process,0,A,Process,Accepted,2018-08-24,A-09
-8002,Open Source Governance Survey,0,A,Informational,Active,2018-08-24,A-09
-8010,The Technical Leader Governance Model,0,A,Informational,Rejected,2018-08-24,A-09
-8011,Python Governance Model Lead by Trio of Pythonistas,0,A,Informational,Rejected,2018-08-24,A-09
-8012,The Community Governance Model,0,A,Informational,Rejected,2018-10-03,A-09
-8013,The External Council Governance Model,0,A,Informational,Rejected,2018-09-14,A-09
-8014,The Commons Governance Model,0,A,Informational,Rejected,2018-09-16,A-09
-8015,Organization of the Python community,0,A,Informational,Rejected,2018-10-04,A-09
-8016,The Steering Council Model,0,A,Informational,Accepted,2018-11-01,A-09
-8100,January 2019 steering council election,0,A,Informational,Active,2019-01-03,A-09
-8101,2020 Term steering council election,0,A,Informational,Active,2019-11-16,A-09
-2,Procedure for Adding New Modules,1,A,Process,Final,2001-07-07,A-07
-362,Function Signature Object,1,A,Standards Track,Final,2006-08-21,A-07
-368,Standard image protocol and class,1,A,Standards Track,Deferred,2007-06-28,A-07
-392,Python 3.2 Release Schedule,1,A,Informational,Final,2009-12-30,A-07
-398,Python 3.3 Release Schedule,1,A,Informational,Final,2011-03-23,A-07
-399,Pure Python/C Accelerator Module Compatibility Requirements,1,A,Informational,Final,2011-04-04,A-07
-407,New release cycle and introducing long-term support versions,1,A,Process,Deferred,2012-01-12,A-07
-408,Standard library __preview__ package,1,A,Standards Track,Rejected,2012-01-07,A-07
-409,Suppressing exception context,1,A,Standards Track,Final,2012-01-26,A-07
-411,Provisional packages in the Python standard library,1,A,Informational,Active,2012-02-10,A-07
-413,Faster evolution of the Python Standard Library,1,A,Process,Withdrawn,2012-02-24,A-07
-414,Explicit Unicode Literal for Python 3.3,1,A,Standards Track,Final,2012-02-15,A-07
-415,Implement context suppression with exception attributes,1,A,Standards Track,Final,2012-02-26,A-07
-417,Including mock in the Standard Library,1,A,Standards Track,Final,2012-03-12,A-07
-421,Adding sys.implementation,1,A,Standards Track,Final,2012-04-26,A-07
-457,Notation For Positional-Only Parameters,1,A,Informational,Final,2013-10-08,A-07
-467,Minor API improvements for binary sequences,1,A,Standards Track,Deferred,2014-03-30,A-07
-490,Chain exceptions at C level,1,A,Standards Track,Rejected,2015-03-25,A-07
-570,Python Positional-Only Parameters,1,A,Standards Track,Accepted,2018-01-20,A-07
-3003,Python Language Moratorium,1,A,Process,Final,2009-10-21,A-07
-3102,Keyword-Only Arguments,1,A,Standards Track,Final,2006-04-22,A-07
-3113,Removal of Tuple Parameter Unpacking,1,A,Standards Track,Final,2007-03-02,A-07
-3114,Renaming iterator.next() to iterator.__next__(),1,A,Standards Track,Final,2007-03-04,A-07
-3137,Immutable Bytes and Mutable Buffer,1,A,Standards Track,Final,2007-09-26,A-07
-3139,"Cleaning out sys and the ""interpreter"" module",1,A,Standards Track,Rejected,2008-04-04,A-07
-3143,Standard daemon process library,1,A,Standards Track,Deferred,2009-01-26,A-07
-3144,IP Address Manipulation Library for the Python Standard Library,1,A,Standards Track,Final,2012-02-06,A-07
-3153,Asynchronous IO support,1,A,Standards Track,Superseded,2011-05-29,A-07
-3154,Pickle protocol version 4,1,A,Standards Track,Final,2011-08-11,A-07
-3155,Qualified name for classes and functions,1,A,Standards Track,Final,2011-10-29,A-07
-3,Guidelines for Handling Bug Reports,2,A,Process,Withdrawn,2000-09-25,A-08
-5,Guidelines for Language Evolution,2,A,Process,Active,2000-10-26,A-08
-6,Bug Fix Releases,2,A,Process,Active,2001-03-15,A-08
-20,The Zen of Python,2,A,Informational,Active,2004-08-19,A-08
-42,Feature Requests,2,A,Process,Rejected,2000-09-12,A-08
-227,Statically Nested Scopes,2,A,Standards Track,Final,2000-11-01,A-08
-230,Warning Framework,2,A,Standards Track,Final,,A-08
-235,Import on Case-Insensitive Platforms,2,A,Standards Track,Final,,A-08
-236,Back to the __future__,2,A,Standards Track,Final,2001-02-26,A-08
-244,The directive statement,2,A,Standards Track,Rejected,2001-03-20,A-08
-317,Eliminate Implicit Exception Instantiation,2,A,Standards Track,Rejected,2003-05-06,A-08
-319,Python Synchronize/Asynchronize Block,2,A,Standards Track,Rejected,2003-02-24,A-08
-387,Backwards Compatibility Policy,2,A,Process,Draft,2009-06-18,A-08
-497,A standard mechanism for backward compatibility,2,A,Process,Rejected,2015-08-04,A-08
-558,Defined semantics for locals(),2,A,Standards Track,Draft,2017-09-08,A-08
-565,Show DeprecationWarning in __main__,2,A,Standards Track,Final,2017-11-12,A-08
-596,Python 3.9 Release Schedule,2,A,Informational,Draft,2019-06-04,A-08
-598,Introducing incremental feature releases,2,A,Informational,Withdrawn,2019-06-15,A-08
-602,Annual Release Cycle for Python,2,A,Informational,Accepted,2019-06-04,A-08
-605,A rolling feature release stream for CPython,2,A,Informational,Rejected,2019-09-20,A-08
-606,Python Compatibility Version,2,A,Standards Track,Rejected,2019-10-18,A-08
-607,Reducing CPython's Feature Delivery Latency,2,A,Informational,Final,2019-10-11,A-08
-608,Coordinated Python release,2,A,Standards Track,Rejected,2019-10-25,A-08
-614,Relaxing Grammar Restrictions On Decorators,2,A,Standards Track,Final,2020-02-10,A-08
-616,String methods to remove prefixes and suffixes,2,A,Standards Track,Accepted,2020-03-19,A-08
-617,New PEG parser for CPython,2,A,Standards Track,Accepted,2020-03-24,A-08
-618,Add Optional Length-Checking To zip,2,A,Standards Track,Final,2020-05-01,A-08
-619,Python 3.10 Release Schedule,2,A,Informational,Draft,2020-05-25,A-08
-3002,Procedure for Backwards-Incompatible Changes,2,A,Process,Final,2006-03-27,A-08
-3117,Postfix type declarations,2,A,Standards Track,Rejected,2007-04-01,A-08
-4,Deprecation of Standard Modules,3,A,Process,Active,2000-10-01,A-02
-202,List Comprehensions,3,A,Standards Track,Final,2000-07-13,A-02
-204,Range Literals,3,A,Standards Track,Rejected,2000-07-14,A-02
-212,Loop Counter Iteration,3,A,Standards Track,Rejected,2000-08-22,A-02
-219,Stackless Python,3,A,Standards Track,Deferred,2000-08-14,A-02
-220,"Coroutines, Generators, Continuations",3,A,Informational,Rejected,2000-08-14,A-02
-234,Iterators,3,A,Standards Track,Final,2001-01-30,A-02
-255,Simple Generators,3,A,Standards Track,Final,2001-05-18,A-02
-274,Dict Comprehensions,3,A,Standards Track,Final,2001-10-25,A-02
-276,Simple Iterator for ints,3,A,Standards Track,Rejected,2001-11-12,A-02
-279,The enumerate() built-in function,3,A,Standards Track,Final,2002-01-30,A-02
-281,Loop Counter Iteration with range and xrange,3,A,Standards Track,Rejected,2002-02-11,A-02
-284,Integer for-loops,3,A,Standards Track,Rejected,2002-03-01,A-02
-288,Generators Attributes and Exceptions,3,A,Standards Track,Withdrawn,2002-03-21,A-02
-289,Generator Expressions,3,A,Standards Track,Final,2002-01-30,A-02
-290,Code Migration and Modernization,3,A,Informational,Active,2002-06-06,A-02
-294,Type Names in the types Module,3,A,Standards Track,Rejected,2002-06-19,A-02
-310,Reliable Acquisition/Release Pairs,3,A,Standards Track,Rejected,2002-12-18,A-02
-323,Copyable Iterators,3,A,Standards Track,Deferred,2003-10-25,A-02
-325,Resource-Release Support for Generators,3,A,Standards Track,Rejected,2003-08-25,A-02
-333,Python Web Server Gateway Interface v1.0,3,A,Informational,Final,2003-12-07,A-02
-334,Simple Coroutines via SuspendIteration,3,A,Standards Track,Withdrawn,2004-08-26,A-02
-340,Anonymous Block Statements,3,A,Standards Track,Rejected,2005-04-27,A-02
-342,Coroutines via Enhanced Generators,3,A,Standards Track,Final,2005-05-10,A-02
-343,"The ""with"" Statement",3,A,Standards Track,Final,2005-05-13,A-02
-344,Exception Chaining and Embedded Tracebacks,3,A,Standards Track,Superseded,2005-05-12,A-02
-346,"User Defined (""with"") Statements",3,A,Standards Track,Withdrawn,2005-05-06,A-02
-348,Exception Reorganization for Python 3.0,3,A,Standards Track,Rejected,2005-07-28,A-02
-352,Required Superclass for Exceptions,3,A,Standards Track,Final,2005-10-27,A-02
-377,Allow __enter__() methods to skip the statement body,3,A,Standards Track,Rejected,2009-03-08,A-02
-444,Python Web3 Interface,3,A,Informational,Deferred,2010-07-19,A-02
-533,Deterministic cleanup for iterators,3,A,Standards Track,Deferred,2016-10-18,A-02
-3000,Python 3000,3,A,Process,Final,2006-04-05,A-02
-3001,Procedure for reviewing and improving standard library modules,3,A,Process,Withdrawn,2006-04-05,A-02
-3099,Things that will Not Change in Python 3000,3,A,Process,Final,2006-04-04,A-02
-3100,Miscellaneous Python 3.0 Plans,3,A,Process,Final,2004-08-20,A-02
-3104,Access to Names in Outer Scopes,3,A,Standards Track,Final,2006-10-12,A-02
-3105,Make print a function,3,A,Standards Track,Final,2006-11-19,A-02
-3109,Raising Exceptions in Python 3000,3,A,Standards Track,Final,2006-01-19,A-02
-3110,Catching Exceptions in Python 3000,3,A,Standards Track,Final,2006-01-16,A-02
-3111,Simple input built-in in Python 3000,3,A,Standards Track,Final,2006-09-13,A-02
-3134,Exception Chaining and Embedded Tracebacks,3,A,Standards Track,Final,2005-05-12,A-02
-3142,"Add a ""while"" clause to generator expressions",3,A,Standards Track,Rejected,2009-01-12,A-02
-3151,Reworking the OS and IO exception hierarchy,3,A,Standards Track,Final,2010-07-21,A-02
-3333,Python Web Server Gateway Interface v1.0.1,3,A,Informational,Final,2010-09-26,A-02
-7,Style Guide for C Code,4,A,Process,Active,2001-07-05,A-13
-370,Per user site-packages directory,4,A,Standards Track,Final,2008-01-11,A-13
-373,Python 2.7 Release Schedule,4,A,Informational,Final,2008-11-03,A-13
-394,"The ""python"" Command on Unix-Like Systems",4,A,Informational,Active,2011-03-02,A-13
-397,Python launcher for Windows,4,A,Standards Track,Final,2011-03-15,A-13
-404,Python 2.8 Un-release Schedule,4,A,Informational,Final,2011-11-09,A-13
-405,Python Virtual Environments,4,A,Standards Track,Final,2011-06-13,A-13
-439,Inclusion of implicit pip bootstrap in Python installation,4,A,Standards Track,Rejected,2013-03-18,A-13
-466,Network Security Enhancements for Python 2.7.x,4,A,Standards Track,Final,2014-03-23,A-13
-476,Enabling certificate verification by default for stdlib http clients,4,A,Standards Track,Final,2014-08-28,A-13
-486,Make the Python Launcher aware of virtual environments,4,A,Standards Track,Final,2015-02-12,A-13
-493,HTTPS verification migration tools for Python 2.7,4,A,Standards Track,Final,2015-05-10,A-13
-514,Python registration in the Windows registry,4,A,Informational,Active,2016-02-02,A-13
-543,A Unified TLS API for Python,4,A,Standards Track,Withdrawn,2016-10-17,A-13
-546,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,4,A,Standards Track,Rejected,2017-05-30,A-13
-3146,Merging Unladen Swallow into CPython,4,A,Standards Track,Withdrawn,2010-01-01,A-13
-8,Style Guide for Python Code,5,A,Process,Active,2001-07-05,A-03
-275,Switching on Multiple Values,5,A,Standards Track,Rejected,2001-11-10,A-03
-315,Enhanced While Loop,5,A,Standards Track,Rejected,2003-04-25,A-03
-359,"The ""make"" Statement",5,A,Standards Track,Withdrawn,2006-04-05,A-03
-391,Dictionary-Based Configuration For Logging,5,A,Standards Track,Final,2009-10-15,A-03
-403,"General purpose decorator clause (aka ""@in"" clause)",5,A,Standards Track,Deferred,2011-10-13,A-03
-482,Literature Overview for Type Hints,5,A,Informational,Final,2015-01-08,A-03
-483,The Theory of Type Hints,5,A,Informational,Final,2014-12-19,A-03
-484,Type Hints,5,A,Standards Track,Provisional,2014-09-29,A-03
-526,Syntax for Variable Annotations,5,A,Standards Track,Final,2016-08-09,A-03
-537,Python 3.7 Release Schedule,5,A,Informational,Active,2016-12-23,A-03
-544,Protocols Structural subtyping (static duck typing),5,A,Standards Track,Accepted,2017-03-05,A-03
-545,Python Documentation Translations,5,A,Process,Final,2017-03-04,A-03
-548,More Flexible Loop Control,5,A,Standards Track,Rejected,2017-09-05,A-03
-549,Instance Descriptors,5,A,Standards Track,Rejected,2017-09-04,A-03
-551,Security transparency in the Python runtime,5,A,Informational,Withdrawn,2017-08-23,A-03
-553,Built-in breakpoint(),5,A,Standards Track,Final,2017-09-05,A-03
-557,Data Classes,5,A,Standards Track,Final,2017-06-02,A-03
-559,Built-in noop(),5,A,Standards Track,Rejected,2017-09-08,A-03
-560,Core support for typing module and generic types,5,A,Standards Track,Accepted,2017-09-03,A-03
-561,Distributing and Packaging Type Information,5,A,Standards Track,Accepted,2017-09-09,A-03
-562,Module __getattr__ and __dir__,5,A,Standards Track,Final,2017-09-09,A-03
-563,Postponed Evaluation of Annotations,5,A,Standards Track,Accepted,2017-09-08,A-03
-569,Python 3.8 Release Schedule,5,A,Informational,Active,2018-01-27,A-03
-572,Assignment Expressions,5,A,Standards Track,Accepted,2018-02-28,A-03
-577,Augmented Assignment Expressions,5,A,Standards Track,Withdrawn,2018-05-14,A-03
-578,Python Runtime Audit Hooks,5,A,Standards Track,Accepted,2018-06-16,A-03
-584,Add Union Operators To dict,5,A,Standards Track,Final,2019-03-01,A-03
-585,Type Hinting Generics In Standard Collections,5,A,Standards Track,Accepted,2019-03-03,A-03
-586,Literal Types,5,A,Standards Track,Accepted,2019-03-14,A-03
-589,TypedDict Type Hints for Dictionaries with a Fixed Set of Keys,5,A,Standards Track,Accepted,2019-03-20,A-03
-591,Adding a final qualifier to typing,5,A,Standards Track,Accepted,2019-03-15,A-03
-593,Flexible function and variable annotations,5,A,Standards Track,Accepted,2019-04-26,A-03
-601,Forbid return/break/continue breaking out of finally,5,A,Standards Track,Rejected,2019-08-26,A-03
-604,Complementary syntax for Union[],5,A,Standards Track,Draft,2019-08-28,A-03
-612,Parameter Specification Variables,5,A,Standards Track,Draft,2019-12-18,A-03
-613,Explicit Type Aliases,5,A,Standards Track,Accepted,2020-01-21,A-03
-622,Structural Pattern Matching,5,A,Standards Track,Draft,2020-06-23,A-03
-3103,A Switch/Case Statement,5,A,Standards Track,Rejected,2006-06-25,A-03
-3107,Function Annotations,5,A,Standards Track,Final,2006-12-02,A-03
-3131,Supporting Non-ASCII Identifiers,5,A,Standards Track,Final,2007-05-01,A-03
-3150,"Statement local namespaces (aka ""given"" clause)",5,A,Standards Track,Deferred,2010-07-09,A-03
-10,Voting Guidelines,6,C,Process,Active,2002-03-07,C-01
-11,Removing support for little used platforms,7,A,Process,Active,2002-07-07,A-01
-277,Unicode file name support for Windows NT,7,A,Standards Track,Final,2002-01-11,A-01
-293,Codec Error Handling Callbacks,7,A,Standards Track,Final,2002-06-18,A-01
-351,The freeze protocol,7,A,Standards Track,Rejected,2005-04-14,A-01
-354,Enumerations in Python,7,A,Standards Track,Superseded,2005-12-20,A-01
-355,Path - Object oriented filesystem paths,7,A,Standards Track,Rejected,2006-01-24,A-01
-372,Adding an ordered dictionary to collections,7,A,Standards Track,Final,2008-06-15,A-01
-375,Python 3.1 Release Schedule,7,A,Informational,Final,2009-02-08,A-01
-383,Non-decodable Bytes in System Character Interfaces,7,A,Standards Track,Final,2009-04-22,A-01
-393,Flexible String Representation,7,A,Standards Track,Final,2010-01-24,A-01
-412,Key-Sharing Dictionary,7,A,Standards Track,Final,2012-02-08,A-01
-416,Add a frozendict builtin type,7,A,Standards Track,Rejected,2012-02-29,A-01
-422,Simpler customisation of class creation,7,A,Standards Track,Withdrawn,2012-06-05,A-01
-428,The pathlib module -- object-oriented filesystem paths,7,A,Standards Track,Final,2012-07-30,A-01
-429,Python 3.4 Release Schedule,7,A,Informational,Final,2012-10-17,A-01
-431,Time zone support improvements,7,A,Standards Track,Superseded,2012-12-11,A-01
-432,Restructuring the CPython startup sequence,7,A,Standards Track,Draft,2012-12-28,A-01
-433,Easier suppression of file descriptor inheritance,7,A,Standards Track,Superseded,2013-01-10,A-01
-435,Adding an Enum type to the Python standard library,7,A,Standards Track,Final,2013-02-23,A-01
-436,The Argument Clinic DSL,7,A,Standards Track,Final,2013-02-22,A-01
-437,"A DSL for specifying signatures, annotations and argument converters",7,A,Standards Track,Rejected,2013-03-11,A-01
-445,Add new APIs to customize Python memory allocators,7,A,Standards Track,Final,2013-06-15,A-01
-446,Make newly created file descriptors non-inheritable,7,A,Standards Track,Final,2013-08-05,A-01
-447,Add __getdescriptor__ method to metaclass,7,A,Standards Track,Deferred,2013-06-12,A-01
-450,Adding A Statistics Module To The Standard Library,7,A,Standards Track,Final,2013-08-01,A-01
-454,Add a new tracemalloc module to trace Python memory allocations,7,A,Standards Track,Final,2013-09-03,A-01
-455,Adding a key-transforming dictionary to collections,7,A,Standards Track,Rejected,2013-09-13,A-01
-456,Secure and interchangeable hash algorithm,7,A,Standards Track,Final,2013-09-27,A-01
-468,Preserving the order of **kwargs in a function.,7,A,Standards Track,Final,2014-04-05,A-01
-472,Support for indexing with keyword arguments,7,A,Standards Track,Rejected,2014-06-24,A-01
-487,Simpler customisation of class creation,7,A,Standards Track,Final,2015-02-27,A-01
-494,Python 3.6 Release Schedule,7,A,Informational,Active,2015-05-30,A-01
-495,Local Time Disambiguation,7,A,Standards Track,Final,2015-08-02,A-01
-500,"A protocol for delegating datetime methods to their
-tzinfo implementations",7,A,Standards Track,Rejected,2015-08-08,A-01
-504,Using the System RNG by default,7,A,Standards Track,Withdrawn,2015-09-15,A-01
-506,Adding A Secrets Module To The Standard Library,7,A,Standards Track,Final,2015-09-19,A-01
-509,Add a private version to dict,7,A,Standards Track,Final,2016-01-04,A-01
-510,Specialize functions with guards,7,A,Standards Track,Rejected,2016-01-04,A-01
-515,Underscores in Numeric Literals,7,A,Standards Track,Final,2016-02-10,A-01
-519,Adding a file system path protocol,7,A,Standards Track,Final,2016-05-11,A-01
-520,Preserving Class Attribute Definition Order,7,A,Standards Track,Final,2016-06-07,A-01
-522,Allow BlockingIOError in security sensitive APIs,7,A,Standards Track,Rejected,2016-06-16,A-01
-523,Adding a frame evaluation API to CPython,7,A,Standards Track,Final,2016-05-16,A-01
-524,Make os.urandom() blocking on Linux,7,A,Standards Track,Final,2016-06-20,A-01
-528,Change Windows console encoding to UTF-8,7,A,Standards Track,Final,2016-08-27,A-01
-529,Change Windows filesystem encoding to UTF-8,7,A,Standards Track,Final,2016-08-27,A-01
-538,Coercing the legacy C locale to a UTF-8 based locale,7,A,Standards Track,Final,2016-12-28,A-01
-539,A New C-API for Thread-Local Storage in CPython,7,A,Standards Track,Final,2016-12-20,A-01
-540,Add a new UTF-8 Mode,7,A,Standards Track,Final,2016-01-05,A-01
-552,Deterministic pycs,7,A,Standards Track,Final,2017-09-04,A-01
-587,Python Initialization Configuration,7,A,Standards Track,Final,2019-03-27,A-01
-615,Support for the IANA Time Zone Database in the Standard Library,7,A,Standards Track,Accepted,2020-02-22,A-01
-623,Remove wstr from Unicode,7,A,Standards Track,Draft,2020-06-25,A-01
-3115,Metaclasses in Python 3000,7,A,Standards Track,Final,2007-03-07,A-01
-100,Python Unicode Integration,8,B,Standards Track,Final,2000-03-10,B-01
-400,Deprecate codecs.StreamReader and codecs.StreamWriter,8,B,Standards Track,Deferred,2011-05-28,B-01
-3116,New I/O,8,B,Standards Track,Final,2007-02-26,B-01
-101,Doing Python Releases 101,9,A,Informational,Active,2001-08-22,A-10
-102,Doing Python Micro Releases,9,A,Informational,Superseded,2001-08-22,A-10
-213,Attribute Access Handlers,9,A,Standards Track,Deferred,2000-07-21,A-10
-228,Reworking Python's Numeric Model,9,A,Standards Track,Withdrawn,2000-11-04,A-10
-231,__findattr__(),9,A,Standards Track,Rejected,2000-11-30,A-10
-237,Unifying Long Integers and Integers,9,A,Standards Track,Final,2001-03-11,A-10
-238,Changing the Division Operator,9,A,Standards Track,Final,2001-03-11,A-10
-239,Adding a Rational Type to Python,9,A,Standards Track,Rejected,2001-03-11,A-10
-240,Adding a Rational Literal to Python,9,A,Standards Track,Rejected,2001-03-11,A-10
-251,Python 2.2 Release Schedule,9,A,Informational,Final,2001-04-17,A-10
-252,Making Types Look More Like Classes,9,A,Standards Track,Final,2001-04-19,A-10
-253,Subtyping Built-in Types,9,A,Standards Track,Final,2001-05-14,A-10
-254,Making Classes Look More Like Types,9,A,Standards Track,Rejected,2001-06-18,A-10
-264,Future statements in simulated shells,9,A,Standards Track,Final,2001-07-30,A-10
-313,Adding Roman Numeral Literals to Python,9,A,Standards Track,Rejected,2003-04-01,A-10
-327,Decimal Data Type,9,A,Standards Track,Final,2003-10-17,A-10
-347,Migrating the Python CVS to Subversion,9,A,Process,Final,2004-07-14,A-10
-374,Choosing a distributed VCS for the Python project,9,A,Process,Final,2008-11-07,A-10
-385,Migrating from Subversion to Mercurial,9,A,Process,Final,2009-05-25,A-10
-462,Core development workflow automation for CPython,9,A,Process,Withdrawn,2014-01-23,A-10
-474,Creating forge.python.org,9,A,Process,Withdrawn,2014-07-19,A-10
-481,"Migrate CPython to Git, Github, and Phabricator",9,A,Process,Withdrawn,2014-11-29,A-10
-507,Migrate CPython to Git and GitLab,9,A,Process,Rejected,2015-09-30,A-10
-512,Migrating from hg.python.org to GitHub,9,A,Process,Final,2015-01-17,A-10
-3141,A Type Hierarchy for Numbers,9,A,Standards Track,Final,2007-04-23,A-10
-103,Collecting information about git,10,C,Informational,Withdrawn,2015-06-01,C-31
-160,Python 1.6 Release Schedule,11,C,Informational,Final,2000-07-25,C-33
-200,Python 2.0 Release Schedule,12,B,Informational,Final,,B-02
-214,Extended Print Statement,12,B,Standards Track,Final,2000-07-24,B-02
-223,Change the Meaning of \x Escapes,12,B,Standards Track,Final,2000-08-20,B-02
-201,Lockstep Iteration,13,A,Standards Track,Final,2000-07-13,A-06
-203,Augmented Assignments,13,A,Standards Track,Final,2000-07-13,A-06
-207,Rich Comparisons,13,A,Standards Track,Final,,A-06
-208,Reworking the Coercion Model,13,A,Standards Track,Final,2000-12-04,A-06
-209,Multi-dimensional Arrays,13,A,Standards Track,Withdrawn,2001-01-03,A-06
-211,Adding A New Outer Product Operator,13,A,Standards Track,Rejected,2000-07-15,A-06
-215,String Interpolation,13,A,Standards Track,Superseded,2000-07-24,A-06
-225,Elementwise/Objectwise Operators,13,A,Standards Track,Rejected,2000-09-19,A-06
-292,Simpler String Substitutions,13,A,Standards Track,Final,2002-06-18,A-06
-335,Overloadable Boolean Operators,13,A,Standards Track,Rejected,2004-08-29,A-06
-378,Format Specifier for Thousands Separator,13,A,Standards Track,Final,2009-03-12,A-06
-441,Improving Python ZIP Application Support,13,A,Standards Track,Final,2013-03-30,A-06
-448,Additional Unpacking Generalizations,13,A,Standards Track,Final,2013-06-29,A-06
-460,Add binary interpolation and formatting,13,A,Standards Track,Withdrawn,2014-01-06,A-06
-461,Adding % formatting to bytes and bytearray,13,A,Standards Track,Final,2014-01-13,A-06
-465,A dedicated infix operator for matrix multiplication,13,A,Standards Track,Final,2014-02-20,A-06
-471,os.scandir() function -- a better and faster directory iterator,13,A,Standards Track,Final,2014-05-30,A-06
-475,Retry system calls failing with EINTR,13,A,Standards Track,Final,2014-07-29,A-06
-478,Python 3.5 Release Schedule,13,A,Informational,Active,2014-09-22,A-06
-485,A Function for testing approximate equality,13,A,Standards Track,Final,2015-01-20,A-06
-488,Elimination of PYO files,13,A,Standards Track,Final,2015-02-20,A-06
-498,Literal String Interpolation,13,A,Standards Track,Final,2015-08-01,A-06
-501,General purpose string interpolation,13,A,Standards Track,Deferred,2015-08-08,A-06
-502,String Interpolation - Extended Discussion,13,A,Informational,Rejected,2015-08-10,A-06
-505,None-aware operators,13,A,Standards Track,Deferred,2015-09-18,A-06
-511,API for code transformers,13,A,Standards Track,Rejected,2016-01-04,A-06
-531,Existence checking operators,13,A,Standards Track,Withdrawn,2016-10-25,A-06
-532,A circuit breaking protocol and binary operators,13,A,Standards Track,Deferred,2016-10-30,A-06
-535,Rich comparison chaining,13,A,Standards Track,Deferred,2016-11-12,A-06
-536,Final Grammar for Literal String Interpolation,13,A,Standards Track,Deferred,2016-12-11,A-06
-3101,Advanced String Formatting,13,A,Standards Track,Final,2006-04-16,A-06
-3126,Remove Implicit String Concatenation,13,A,Standards Track,Rejected,2007-04-29,A-06
-205,Weak References,14,C,Standards Track,Final,,C-34
-206,Python Advanced Library,15,A,Informational,Withdrawn,,A-11
-299,Special __main__() function in modules,15,A,Standards Track,Rejected,2002-08-12,A-11
-302,New Import Hooks,15,A,Standards Track,Final,2002-12-19,A-11
-309,Partial Function Application,15,A,Standards Track,Final,2003-02-08,A-11
-324,subprocess - New process module,15,A,Standards Track,Final,2003-11-19,A-11
-328,Imports Multi-Line and Absolute/Relative,15,A,Standards Track,Final,2003-12-21,A-11
-338,Executing modules as scripts,15,A,Standards Track,Final,2004-10-16,A-11
-341,Unifying try-except and try-finally,15,A,Standards Track,Final,2005-05-04,A-11
-353,Using ssize_t as the index type,15,A,Standards Track,Final,2005-12-18,A-11
-356,Python 2.5 Release Schedule,15,A,Informational,Final,2006-02-07,A-11
-357,Allowing Any Object to be Used for Slicing,15,A,Standards Track,Final,2006-02-09,A-11
-360,Externally Maintained Packages,15,A,Process,Final,2006-05-30,A-11
-364,Transitioning to the Py3K Standard Library,15,A,Standards Track,Withdrawn,2007-03-01,A-11
-366,Main module explicit relative imports,15,A,Standards Track,Final,2007-05-01,A-11
-369,Post import hooks,15,A,Standards Track,Withdrawn,2008-01-02,A-11
-382,Namespace Packages,15,A,Standards Track,Rejected,2009-04-02,A-11
-395,Qualified Names for Modules,15,A,Standards Track,Withdrawn,2011-03-04,A-11
-402,Simplified Package Layout and Partitioning,15,A,Standards Track,Rejected,2011-07-12,A-11
-406,Improved Encapsulation of Import State,15,A,Standards Track,Withdrawn,2011-07-04,A-11
-420,Implicit Namespace Packages,15,A,Standards Track,Final,2012-04-19,A-11
-451,A ModuleSpec Type for the Import System,15,A,Standards Track,Final,2013-08-08,A-11
-499,python -m foo should bind sys.modules['foo'] in addition to sys.modules['__main__'],15,A,Standards Track,Deferred,2015-08-07,A-11
-594,Removing dead batteries from the standard library,15,A,Standards Track,Draft,2019-05-20,A-11
-3108,Standard Library Reorganization,15,A,Standards Track,Final,2007-01-01,A-11
-3122,Delineation of the main module,15,A,Standards Track,Rejected,2007-04-27,A-11
-210,Decoupling the Interpreter Loop,16,C,Standards Track,Rejected,2000-07-15,C-35
-217,Display Hook for Interactive Use,17,C,Standards Track,Final,2000-07-31,C-36
-218,Adding a Built-In Set Object Type,18,A,Standards Track,Final,2000-07-31,A-05
-232,Function Attributes,18,A,Standards Track,Final,2000-12-02,A-05
-233,Python Online Help,18,A,Standards Track,Deferred,2000-12-11,A-05
-245,Python Interface Syntax,18,A,Standards Track,Rejected,2001-01-11,A-05
-246,Object Adaptation,18,A,Standards Track,Rejected,2001-03-21,A-05
-263,Defining Python Source Code Encodings,18,A,Standards Track,Final,2001-06-06,A-05
-266,Optimizing Global Variable/Attribute Access,18,A,Standards Track,Withdrawn,2001-08-13,A-05
-267,Optimized Access to Module Namespaces,18,A,Standards Track,Deferred,2001-05-23,A-05
-269,Pgen Module for Python,18,A,Standards Track,Deferred,2001-08-24,A-05
-270,uniq method for list objects,18,A,Standards Track,Rejected,2001-08-21,A-05
-273,Import Modules from Zip Archives,18,A,Standards Track,Final,2001-10-11,A-05
-278,Universal Newline Support,18,A,Standards Track,Final,2002-01-14,A-05
-280,Optimizing access to globals,18,A,Standards Track,Deferred,2002-02-10,A-05
-282,A Logging System,18,A,Standards Track,Final,2002-02-04,A-05
-283,Python 2.3 Release Schedule,18,A,Informational,Final,2002-02-27,A-05
-285,Adding a bool type,18,A,Standards Track,Final,2002-03-08,A-05
-286,Enhanced Argument Tuples,18,A,Standards Track,Deferred,2002-03-03,A-05
-304,Controlling Generation of Bytecode Files,18,A,Standards Track,Withdrawn,2003-01-22,A-05
-307,Extensions to the pickle protocol,18,A,Standards Track,Final,2003-01-31,A-05
-308,Conditional Expressions,18,A,Standards Track,Final,2003-02-07,A-05
-311,Simplified Global Interpreter Lock Acquisition for Extensions,18,A,Standards Track,Final,2003-02-05,A-05
-312,Simple Implicit Lambda,18,A,Standards Track,Deferred,2003-02-11,A-05
-318,Decorators for Functions and Methods,18,A,Standards Track,Final,2003-06-05,A-05
-320,Python 2.4 Release Schedule,18,A,Informational,Final,2003-07-29,A-05
-322,Reverse Iteration,18,A,Standards Track,Final,2003-09-24,A-05
-329,Treating Builtins as Constants in the Standard Library,18,A,Standards Track,Rejected,2004-04-18,A-05
-337,Logging Usage in the Standard Library,18,A,Standards Track,Deferred,2004-10-02,A-05
-443,Single-dispatch generic functions,18,A,Standards Track,Final,2013-05-22,A-05
-463,Exception-catching expressions,18,A,Standards Track,Rejected,2014-02-15,A-05
-3119,Introducing Abstract Base Classes,18,A,Standards Track,Final,2007-04-18,A-05
-3120,Using UTF-8 as the default source encoding,18,A,Standards Track,Final,2007-04-15,A-05
-3124,"Overloading, Generic Functions, Interfaces, and Adaptation",18,A,Standards Track,Deferred,2007-04-28,A-05
-3129,Class Decorators,18,A,Standards Track,Final,2007-05-01,A-05
-3133,Introducing Roles,18,A,Standards Track,Rejected,2007-05-01,A-05
-221,Import As,19,C,Standards Track,Final,2000-08-15,C-37
-222,Web Library Enhancements,20,C,Standards Track,Deferred,2000-08-18,C-38
-229,Using Distutils to Build Python,21,C,Standards Track,Final,2000-11-16,C-39
-241,Metadata for Python Software Packages,22,A,Standards Track,Final,2001-03-12,A-04
-243,Module Repository Upload Mechanism,22,A,Standards Track,Withdrawn,2001-03-18,A-04
-262,A Database of Installed Python Packages,22,A,Standards Track,Deferred,2001-07-08,A-04
-301,Package Index and Metadata for Distutils,22,A,Standards Track,Final,2002-10-24,A-04
-314,Metadata for Python Software Packages v1.1,22,A,Standards Track,Final,2003-04-12,A-04
-345,Metadata for Python Software Packages 1.2,22,A,Standards Track,Final,2005-04-28,A-04
-376,Database of Installed Python Distributions,22,A,Standards Track,Final,2009-02-22,A-04
-386,Changing the version comparison module in Distutils,22,A,Standards Track,Superseded,2009-06-04,A-04
-390,Static metadata for Distutils,22,A,Standards Track,Rejected,2009-10-10,A-04
-396,Module Version Numbers,22,A,Informational,Deferred,2011-03-16,A-04
-423,Naming conventions and recipes related to packaging,22,A,Informational,Deferred,2012-05-24,A-04
-425,Compatibility Tags for Built Distributions,22,A,Standards Track,Final,2012-07-27,A-04
-426,Metadata for Python Software Packages 2.0,22,A,Informational,Withdrawn,2012-08-30,A-04
-427,The Wheel Binary Package Format 1.0,22,A,Standards Track,Final,2012-09-20,A-04
-440,Version Identification and Dependency Specification,22,A,Informational,Active,2013-03-18,A-04
-453,Explicit bootstrapping of pip in Python installations,22,A,Standards Track,Final,2013-08-10,A-04
-459,Standard Metadata Extensions for Python Software Packages,22,A,Standards Track,Withdrawn,2013-11-11,A-04
-477,Backport ensurepip (PEP 453) to Python 2.7,22,A,Standards Track,Final,2014-08-26,A-04
-491,The Wheel Binary Package Format 1.9,22,A,Standards Track,Deferred,2015-04-16,A-04
-496,Environment Markers,22,A,Informational,Rejected,2015-07-03,A-04
-503,Simple Repository API,22,A,Informational,Accepted,2015-09-04,A-04
-508,Dependency specification for Python Software Packages,22,A,Informational,Active,2015-11-11,A-04
-513,A Platform Tag for Portable Linux Built Distributions,22,A,Informational,Active,2016-01-19,A-04
-516,Build system abstraction for pip/conda etc,22,A,Standards Track,Rejected,2015-10-26,A-04
-517,A build-system independent format for source trees,22,A,Standards Track,Provisional,2015-09-30,A-04
-518,Specifying Minimum Build System Requirements for Python Projects,22,A,Standards Track,Final,2016-05-10,A-04
-527,Removing Un(der)used file types/extensions on PyPI,22,A,Process,Final,2016-08-23,A-04
-566,Metadata for Python Software Packages 2.1,22,A,Standards Track,Final,2017-12-01,A-04
-571,The manylinux2010 Platform Tag,22,A,Informational,Active,,A-04
-592,"Adding ""Yank"" Support to the Simple API",22,A,Standards Track,Final,2019-05-07,A-04
-599,The manylinux2014 Platform Tag,22,A,Informational,Final,2019-04-29,A-04
-600,Future 'manylinux' Platform Tags for Portable Linux Built Distributions,22,A,Informational,Accepted,2019-05-03,A-04
-610,Recording the Direct URL Origin of installed distributions,22,A,Standards Track,Provisional,2019-04-21,A-04
-621,Storing project metadata in pyproject.toml,22,A,Standards Track,Draft,2020-06-22,A-04
-3147,PYC Repository Directories,22,A,Standards Track,Final,2009-12-16,A-04
-3149,ABI version tagged .so files,22,A,Standards Track,Final,2010-07-09,A-04
-242,Numeric Kinds,23,C,Standards Track,Rejected,2001-03-17,C-40
-247,API for Cryptographic Hash Functions,24,B,Informational,Final,2001-03-23,B-04
-452,API for Cryptographic Hash Functions v2.0,24,B,Informational,Final,2013-08-15,B-04
-248,Python Database API Specification v1.0,25,B,Informational,Final,,B-05
-249,Python Database API Specification v2.0,25,B,Informational,Final,,B-05
-250,Using site-packages on Windows,26,C,Standards Track,Final,2001-03-30,C-41
-259,Omit printing newline after newline,27,C,Standards Track,Rejected,2001-06-11,C-42
-260,Simplify xrange(),28,C,Standards Track,Final,2001-06-26,C-43
-261,"Support for ""wide"" Unicode characters",29,C,Standards Track,Final,2001-06-27,C-44
-265,Sorting Dictionaries by Value,30,C,Standards Track,Rejected,2001-08-08,C-32
-268,Extended HTTP functionality and WebDAV,31,C,Standards Track,Rejected,2001-08-20,C-45
-271,Prefixing sys.path by command line option,32,C,Standards Track,Rejected,2001-08-15,C-47
-272,API for Block Encryption Algorithms v1.0,33,C,Informational,Final,2001-09-18,C-48
-291,Backward Compatibility for the Python 2 Standard Library,34,C,Informational,Final,2002-06-06,C-49
-295,Interpretation of multiline string constants,35,C,Standards Track,Rejected,2002-07-22,C-50
-296,Adding a bytes Object Type,36,A,Standards Track,Withdrawn,2002-07-12,A-15
-298,The Locked Buffer Interface,36,A,Standards Track,Withdrawn,2002-07-26,A-15
-306,How to Change Python's Grammar,36,A,Informational,Withdrawn,2003-01-29,A-15
-358,"The ""bytes"" Object",36,A,Standards Track,Final,2006-02-15,A-15
-361,Python 2.6 and 3.0 Release Schedule,36,A,Informational,Final,2006-06-29,A-15
-367,New Super,36,A,Standards Track,Superseded,2007-04-28,A-15
-371,Addition of the multiprocessing package to the standard library,36,A,Standards Track,Final,2008-05-06,A-15
-3112,Bytes literals in Python 3000,36,A,Standards Track,Final,2007-02-23,A-15
-3127,Integer Literal Support and Syntax,36,A,Standards Track,Final,2007-03-14,A-15
-3130,Access to Current Module/Class/Function,36,A,Standards Track,Rejected,2007-04-22,A-15
-3135,New Super,36,A,Standards Track,Final,2007-04-28,A-15
-297,Support for System Upgrades,37,C,Standards Track,Rejected,2001-07-19,C-51
-303,Extend divmod() for Multiple Divisors,38,C,Standards Track,Rejected,2002-12-31,C-52
-305,CSV File API,39,A,Standards Track,Final,2003-01-26,A-16
-381,Mirroring infrastructure for PyPI,39,A,Standards Track,Withdrawn,2009-03-21,A-16
-438,Transitioning to release-file hosting on PyPI,39,A,Process,Superseded,2013-03-15,A-16
-449,Removal of the PyPI Mirror Auto Discovery and Naming Scheme,39,A,Process,Final,2013-08-04,A-16
-458,Secure PyPI downloads with signed repository metadata,39,A,Standards Track,Accepted,2013-09-27,A-16
-464,Removal of the PyPI Mirror Authenticity API,39,A,Process,Final,2014-03-02,A-16
-470,Removing External Hosting Support on PyPI,39,A,Process,Final,2014-05-12,A-16
-480,Surviving a Compromise of PyPI The Maximum Security Model,39,A,Standards Track,Deferred,2014-10-08,A-16
-316,Programming by Contract for Python,40,C,Standards Track,Deferred,2003-05-02,C-53
-321,Date/Time Parsing and Formatting,41,C,Standards Track,Withdrawn,2003-09-16,C-54
-326,A Case for Top and Bottom Values,42,C,Standards Track,Rejected,2003-12-20,C-55
-330,Python Bytecode Verification,43,C,Standards Track,Rejected,2004-06-17,C-56
-332,Byte vectors and String/Unicode Unification,44,C,Standards Track,Rejected,2004-08-11,C-57
-336,Make None Callable,45,C,Standards Track,Rejected,2004-10-28,C-58
-339,Design of the CPython Compiler,46,C,Informational,Withdrawn,2005-02-02,C-46
-349,Allow str() to return unicode strings,47,C,Standards Track,Rejected,2005-08-02,C-30
-350,Codetags,48,C,Informational,Rejected,2005-06-27,C-16
-363,Syntax For Dynamic Attribute Access,49,C,Standards Track,Rejected,2007-01-29,C-29
-365,Adding the pkg_resources module,50,C,Standards Track,Rejected,2007-04-30,C-03
-379,Adding an Assignment Expression,51,C,Standards Track,Withdrawn,2009-03-14,C-04
-380,Syntax for Delegating to a Subgenerator,52,A,Standards Track,Final,2009-02-13,A-12
-410,Use decimal.Decimal type for timestamps,52,A,Standards Track,Rejected,2012-02-01,A-12
-418,"Add monotonic time, performance counter, and process time functions",52,A,Standards Track,Final,2012-03-26,A-12
-479,Change StopIteration handling inside generators,52,A,Standards Track,Final,2014-11-15,A-12
-492,Coroutines with async and await syntax,52,A,Standards Track,Final,2015-04-09,A-12
-521,Managing global context via 'with' blocks in generators and coroutines,52,A,Standards Track,Withdrawn,2015-04-27,A-12
-525,Asynchronous Generators,52,A,Standards Track,Final,2016-07-28,A-12
-530,Asynchronous Comprehensions,52,A,Standards Track,Final,2016-09-03,A-12
-550,Execution Context,52,A,Standards Track,Withdrawn,2017-08-11,A-12
-564,Add new time functions with nanosecond resolution,52,A,Standards Track,Final,2017-10-16,A-12
-567,Context Variables,52,A,Standards Track,Final,2017-12-12,A-12
-568,Generator-sensitivity for Context Variables,52,A,Standards Track,Deferred,2018-01-04,A-12
-603,Adding a frozenmap type to collections,52,A,Standards Track,Draft,2019-09-12,A-12
-3145,Asynchronous I/O For subprocess.Popen,52,A,Standards Track,Withdrawn,2009-08-04,A-12
-3148,futures - execute computations asynchronously,52,A,Standards Track,Final,2009-10-16,A-12
-3152,Cofunctions,52,A,Standards Track,Rejected,2009-02-13,A-12
-3156,"Asynchronous IO Support Rebooted the ""asyncio"" Module",52,A,Standards Track,Final,2012-12-12,A-12
-384,Defining a Stable ABI,53,A,Standards Track,Final,2009-05-17,A-14
-442,Safe object finalization,53,A,Standards Track,Final,2013-05-18,A-14
-489,Multi-phase extension module initialization,53,A,Standards Track,Final,2013-08-11,A-14
-547,Running extension modules using the -m option,53,A,Standards Track,Deferred,2017-05-25,A-14
-554,Multiple Interpreters in the Stdlib,53,A,Standards Track,Draft,2017-09-05,A-14
-573,Module State Access from C Extension Methods,53,A,Standards Track,Final,2016-06-02,A-14
-574,Pickle protocol 5 with out-of-band data,53,A,Standards Track,Final,2018-03-23,A-14
-575,Unifying function/method classes,53,A,Standards Track,Withdrawn,2018-03-27,A-14
-576,Rationalize Built-in function classes,53,A,Standards Track,Withdrawn,2018-05-10,A-14
-579,Refactoring C functions and methods,53,A,Informational,Final,2018-06-04,A-14
-580,The C call protocol,53,A,Standards Track,Rejected,2018-06-14,A-14
-590,Vectorcall a fast calling protocol for CPython,53,A,Standards Track,Accepted,2019-03-29,A-14
-620,Hide implementation details from the C API,53,A,Standards Track,Draft,2020-06-19,A-14
-3118,Revising the buffer protocol,53,A,Standards Track,Final,2006-08-28,A-14
-3121,Extension Module Initialization and Finalization,53,A,Standards Track,Accepted,2007-04-27,A-14
-389,argparse - New Command Line Parsing Module,54,C,Standards Track,Final,2009-09-25,C-05
-401,BDFL Retirement,55,C,Process,April Fool!,2009-04-01,C-06
-419,Protecting cleanup statements from interruptions,56,C,Standards Track,Deferred,2012-04-06,C-07
-424,A method for exposing a length hint,57,C,Standards Track,Final,2012-07-14,C-08
-430,Migrating to Python 3 as the default online documentation,58,C,Informational,Final,2012-10-27,C-09
-434,IDLE Enhancement Exception for All Branches,59,C,Informational,Active,2013-02-16,C-10
-469,Migration of dict iteration code to Python 3,60,B,Standards Track,Withdrawn,2014-04-18,B-06
-3106,"Revamping dict.keys(), .values() and .items()",60,B,Standards Track,Final,2006-12-19,B-06
-473,Adding structured data to built-in exceptions,61,C,Standards Track,Rejected,2014-03-29,C-11
-534,Improved Errors for Missing Standard Library Modules,62,C,Standards Track,Deferred,2016-09-05,C-12
-541,Package Index Name Retention,63,C,Process,Final,2017-01-12,C-13
-542,Dot Notation Assignment In Function Header,64,C,Standards Track,Rejected,2017-02-10,C-14
-555,Context-local variables (contextvars),65,C,Standards Track,Withdrawn,2017-09-06,C-02
-556,Threaded garbage collection,66,C,Standards Track,Deferred,2017-09-08,C-15
-581,Using GitHub Issues for CPython,67,B,Process,Accepted,2018-06-20,B-03
-588,GitHub Issues Migration Plan,67,B,Informational,Draft,2019-03-27,B-03
-595,Improving bugs.python.org,67,B,Informational,Withdrawn,2019-05-12,B-03
-582,Python local packages directory,68,C,Standards Track,Draft,2018-05-16,C-17
-583,A Concurrency Memory Model for Python,69,C,Informational,Withdrawn,2008-03-22,C-18
-597,Soft deprecation of default encoding,70,C,Standards Track,Draft,2019-06-05,C-19
-609,PyPA Governance,71,C,Process,Draft,2019-11-05,C-20
-611,The one million limit,72,C,Standards Track,Draft,2019-12-05,C-21
-628,Add math.tau,73,C,Standards Track,Final,2011-06-28,C-22
-754,IEEE 754 Floating Point Special Values,74,C,Standards Track,Rejected,2003-03-28,C-23
-801,Reserved,75,C,Informational,Draft,2018-06-21,C-24
-3123,Making PyObject_HEAD conform to standard C,76,C,Standards Track,Final,2007-04-27,C-25
-3125,Remove Backslash Continuation,77,C,Standards Track,Rejected,2007-04-29,C-26
-3128,BList A Faster List-like Type,78,C,Standards Track,Rejected,2007-04-30,C-27
-3132,Extended Iterable Unpacking,79,C,Standards Track,Final,2007-04-30,C-28
-3136,Labeled break and continue,80,C,Standards Track,Rejected,2007-06-30,C-59
-3138,String representation in Python 3000,81,B,Standards Track,Final,2008-05-05,B-07
-3140,"str(container) should call str(item), not repr(item)",81,B,Standards Track,Rejected,2008-05-27,B-07
+pep_id,Title,louvain_group_id,group_category,group_id,Type,Status,Created_dt,group_name
+0001,PEP Purpose and Guidelines,0,A,0,Process,Active,2000-06-13,A-09
+0009,Sample Plaintext PEP Template,0,A,0,Process,Withdrawn,2001-08-14,A-09
+0012,Sample reStructuredText PEP Template,0,A,0,Process,Active,2002-08-05,A-09
+0013,Python Language Governance,0,A,0,Informational,Active,2018-12-16,A-09
+0216,Docstring Format,0,A,0,Informational,Rejected,2000-07-31,A-09
+0224,Attribute Docstrings,0,A,0,Standards Track,Rejected,2000-08-23,A-09
+0226,Python 2.1 Release Schedule,0,A,0,Informational,Final,2000-10-16,A-09
+0256,Docstring Processing System Framework,0,A,0,Standards Track,Rejected,2001-06-01,A-09
+0257,Docstring Conventions,0,A,0,Informational,Active,2001-05-29,A-09
+0258,Docutils Design Specification,0,A,0,Standards Track,Rejected,2001-05-31,A-09
+0287,reStructuredText Docstring Format,0,A,0,Informational,Active,2002-03-25,A-09
+0331,Locale-Independent Float/String Conversions,0,A,0,Standards Track,Final,2003-07-19,A-09
+0666,Reject Foolish Indentation,0,A,0,Standards Track,Rejected,2001-12-03,A-09
+8000,Python Language Governance Proposal Overview,0,A,0,Informational,Active,2018-08-24,A-09
+8001,Python Governance Voting Process,0,A,0,Process,Accepted,2018-08-24,A-09
+8002,Open Source Governance Survey,0,A,0,Informational,Active,2018-08-24,A-09
+8010,The Technical Leader Governance Model,0,A,0,Informational,Rejected,2018-08-24,A-09
+8011,Python Governance Model Lead by Trio of Pythonistas,0,A,0,Informational,Rejected,2018-08-24,A-09
+8012,The Community Governance Model,0,A,0,Informational,Rejected,2018-10-03,A-09
+8013,The External Council Governance Model,0,A,0,Informational,Rejected,2018-09-14,A-09
+8014,The Commons Governance Model,0,A,0,Informational,Rejected,2018-09-16,A-09
+8015,Organization of the Python community,0,A,0,Informational,Rejected,2018-10-04,A-09
+8016,The Steering Council Model,0,A,0,Informational,Accepted,2018-11-01,A-09
+8100,January 2019 steering council election,0,A,0,Informational,Active,2019-01-03,A-09
+8101,2020 Term steering council election,0,A,0,Informational,Active,2019-11-16,A-09
+8102,2021 Term steering council election,0,A,0,Informational,Active,2020-10-29,A-09
+0002,Procedure for Adding New Modules,1,A,0,Process,Final,2001-07-07,A-07
+0003,Guidelines for Handling Bug Reports,1,A,0,Process,Withdrawn,2000-09-25,A-07
+0005,Guidelines for Language Evolution,1,A,0,Process,Active,2000-10-26,A-07
+0006,Bug Fix Releases,1,A,0,Process,Active,2001-03-15,A-07
+0042,Feature Requests,1,A,0,Process,Rejected,2000-09-12,A-07
+0227,Statically Nested Scopes,1,A,0,Standards Track,Final,2000-11-01,A-07
+0230,Warning Framework,1,A,0,Standards Track,Final,2000-11-28,A-07
+0235,Import on Case-Insensitive Platforms,1,A,0,Standards Track,Final,2001-02-21,A-07
+0236,Back to the __future__,1,A,0,Standards Track,Final,2001-02-26,A-07
+0244,The directive statement,1,A,0,Standards Track,Rejected,2001-03-20,A-07
+0317,Eliminate Implicit Exception Instantiation,1,A,0,Standards Track,Rejected,2003-05-06,A-07
+0319,Python Synchronize/Asynchronize Block,1,A,0,Standards Track,Rejected,2003-02-24,A-07
+0368,Standard image protocol and class,1,A,0,Standards Track,Deferred,2007-06-28,A-07
+0387,Backwards Compatibility Policy,1,A,0,Process,Active,2009-06-18,A-07
+0408,Standard library __preview__ package,1,A,0,Standards Track,Rejected,2012-01-07,A-07
+0411,Provisional packages in the Python standard library,1,A,0,Informational,Active,2012-02-10,A-07
+0497,A standard mechanism for backward compatibility,1,A,0,Process,Rejected,2015-08-04,A-07
+0558,Defined semantics for locals(),1,A,0,Standards Track,Draft,2017-09-08,A-07
+0565,Show DeprecationWarning in __main__,1,A,0,Standards Track,Final,2017-11-12,A-07
+0577,Augmented Assignment Expressions,1,A,0,Standards Track,Withdrawn,2018-05-14,A-07
+0596,Python 3.9 Release Schedule,1,A,0,Informational,Active,2019-06-04,A-07
+0598,Introducing incremental feature releases,1,A,0,Informational,Withdrawn,2019-06-15,A-07
+0602,Annual Release Cycle for Python,1,A,0,Informational,Accepted,2019-06-04,A-07
+0605,A rolling feature release stream for CPython,1,A,0,Informational,Rejected,2019-09-20,A-07
+0606,Python Compatibility Version,1,A,0,Standards Track,Rejected,2019-10-18,A-07
+0607,Reducing CPython's Feature Delivery Latency,1,A,0,Informational,Final,2019-10-11,A-07
+0608,Coordinated Python release,1,A,0,Standards Track,Rejected,2019-10-25,A-07
+0614,Relaxing Grammar Restrictions On Decorators,1,A,0,Standards Track,Final,2020-02-10,A-07
+0616,String methods to remove prefixes and suffixes,1,A,0,Standards Track,Accepted,2020-03-19,A-07
+3002,Procedure for Backwards-Incompatible Changes,1,A,0,Process,Final,2006-03-27,A-07
+3143,Standard daemon process library,1,A,0,Standards Track,Deferred,2009-01-26,A-07
+3144,IP Address Manipulation Library for the Python Standard Library,1,A,0,Standards Track,Final,2012-02-06,A-07
+3153,Asynchronous IO support,1,A,0,Standards Track,Superseded,2011-05-29,A-07
+0004,Deprecation of Standard Modules,2,A,0,Process,Active,2000-10-01,A-02
+0202,List Comprehensions,2,A,0,Standards Track,Final,2000-07-13,A-02
+0204,Range Literals,2,A,0,Standards Track,Rejected,2000-07-14,A-02
+0212,Loop Counter Iteration,2,A,0,Standards Track,Rejected,2000-08-22,A-02
+0219,Stackless Python,2,A,0,Standards Track,Deferred,2000-08-14,A-02
+0220,"Coroutines, Generators, Continuations",2,A,0,Informational,Rejected,2000-08-14,A-02
+0234,Iterators,2,A,0,Standards Track,Final,2001-01-30,A-02
+0255,Simple Generators,2,A,0,Standards Track,Final,2001-05-18,A-02
+0274,Dict Comprehensions,2,A,0,Standards Track,Final,2001-10-25,A-02
+0276,Simple Iterator for ints,2,A,0,Standards Track,Rejected,2001-11-12,A-02
+0279,The enumerate() built-in function,2,A,0,Standards Track,Final,2002-01-30,A-02
+0281,Loop Counter Iteration with range and xrange,2,A,0,Standards Track,Rejected,2002-02-11,A-02
+0284,Integer for-loops,2,A,0,Standards Track,Rejected,2002-03-01,A-02
+0288,Generators Attributes and Exceptions,2,A,0,Standards Track,Withdrawn,2002-03-21,A-02
+0289,Generator Expressions,2,A,0,Standards Track,Final,2002-01-30,A-02
+0290,Code Migration and Modernization,2,A,0,Informational,Active,2002-06-06,A-02
+0294,Type Names in the types Module,2,A,0,Standards Track,Rejected,2002-06-19,A-02
+0296,Adding a bytes Object Type,2,A,0,Standards Track,Withdrawn,2002-07-12,A-02
+0298,The Locked Buffer Interface,2,A,0,Standards Track,Withdrawn,2002-07-26,A-02
+0310,Reliable Acquisition/Release Pairs,2,A,0,Standards Track,Rejected,2002-12-18,A-02
+0323,Copyable Iterators,2,A,0,Standards Track,Deferred,2003-10-25,A-02
+0325,Resource-Release Support for Generators,2,A,0,Standards Track,Rejected,2003-08-25,A-02
+0333,Python Web Server Gateway Interface v1.0,2,A,0,Informational,Final,2003-12-07,A-02
+0334,Simple Coroutines via SuspendIteration,2,A,0,Standards Track,Withdrawn,2004-08-26,A-02
+0340,Anonymous Block Statements,2,A,0,Standards Track,Rejected,2005-04-27,A-02
+0342,Coroutines via Enhanced Generators,2,A,0,Standards Track,Final,2005-05-10,A-02
+0343,"The ""with"" Statement",2,A,0,Standards Track,Final,2005-05-13,A-02
+0344,Exception Chaining and Embedded Tracebacks,2,A,0,Standards Track,Superseded,2005-05-12,A-02
+0346,"User Defined (""with"") Statements",2,A,0,Standards Track,Withdrawn,2005-05-06,A-02
+0348,Exception Reorganization for Python 3.0,2,A,0,Standards Track,Rejected,2005-07-28,A-02
+0352,Required Superclass for Exceptions,2,A,0,Standards Track,Final,2005-10-27,A-02
+0358,"The ""bytes"" Object",2,A,0,Standards Track,Final,2006-02-15,A-02
+0361,Python 2.6 and 3.0 Release Schedule,2,A,0,Informational,Final,2006-06-29,A-02
+0367,New Super,2,A,0,Standards Track,Superseded,2007-04-28,A-02
+0371,Addition of the multiprocessing package to the standard library,2,A,0,Standards Track,Final,2008-05-06,A-02
+0377,Allow __enter__() methods to skip the statement body,2,A,0,Standards Track,Rejected,2009-03-08,A-02
+0444,Python Web3 Interface,2,A,0,Informational,Deferred,2010-07-19,A-02
+0467,Minor API improvements for binary sequences,2,A,0,Standards Track,Draft,2014-03-30,A-02
+0533,Deterministic cleanup for iterators,2,A,0,Standards Track,Deferred,2016-10-18,A-02
+0654,Exception Groups and except*,2,A,0,Standards Track,Draft,2021-02-22,A-02
+3000,Python 3000,2,A,0,Process,Final,2006-04-05,A-02
+3001,Procedure for reviewing and improving standard library modules,2,A,0,Process,Withdrawn,2006-04-05,A-02
+3099,Things that will Not Change in Python 3000,2,A,0,Process,Final,2006-04-04,A-02
+3100,Miscellaneous Python 3.0 Plans,2,A,0,Process,Final,2004-08-20,A-02
+3104,Access to Names in Outer Scopes,2,A,0,Standards Track,Final,2006-10-12,A-02
+3105,Make print a function,2,A,0,Standards Track,Final,2006-11-19,A-02
+3109,Raising Exceptions in Python 3000,2,A,0,Standards Track,Final,2006-01-19,A-02
+3110,Catching Exceptions in Python 3000,2,A,0,Standards Track,Final,2006-01-16,A-02
+3111,Simple input built-in in Python 3000,2,A,0,Standards Track,Final,2006-09-13,A-02
+3112,Bytes literals in Python 3000,2,A,0,Standards Track,Final,2007-02-23,A-02
+3119,Introducing Abstract Base Classes,2,A,0,Standards Track,Final,2007-04-18,A-02
+3130,Access to Current Module/Class/Function,2,A,0,Standards Track,Rejected,2007-04-22,A-02
+3134,Exception Chaining and Embedded Tracebacks,2,A,0,Standards Track,Final,2005-05-12,A-02
+3135,New Super,2,A,0,Standards Track,Final,2007-04-28,A-02
+3137,Immutable Bytes and Mutable Buffer,2,A,0,Standards Track,Final,2007-09-26,A-02
+3142,"Add a ""while"" clause to generator expressions",2,A,0,Standards Track,Rejected,2009-01-12,A-02
+3151,Reworking the OS and IO exception hierarchy,2,A,0,Standards Track,Final,2010-07-21,A-02
+3333,Python Web Server Gateway Interface v1.0.1,2,A,0,Informational,Final,2010-09-26,A-02
+0007,Style Guide for C Code,3,A,0,Process,Active,2001-07-05,A-12
+0384,Defining a Stable ABI,3,A,0,Standards Track,Final,2009-05-17,A-12
+0489,Multi-phase extension module initialization,3,A,0,Standards Track,Final,2013-08-11,A-12
+0547,Running extension modules using the -m option,3,A,0,Standards Track,Deferred,2017-05-25,A-12
+0554,Multiple Interpreters in the Stdlib,3,A,0,Standards Track,Draft,2017-09-05,A-12
+0573,Module State Access from C Extension Methods,3,A,0,Standards Track,Final,2016-06-02,A-12
+0574,Pickle protocol 5 with out-of-band data,3,A,0,Standards Track,Final,2018-03-23,A-12
+0575,Unifying function/method classes,3,A,0,Standards Track,Withdrawn,2018-03-27,A-12
+0576,Rationalize Built-in function classes,3,A,0,Standards Track,Withdrawn,2018-05-10,A-12
+0579,Refactoring C functions and methods,3,A,0,Informational,Final,2018-06-04,A-12
+0580,The C call protocol,3,A,0,Standards Track,Rejected,2018-06-14,A-12
+0590,Vectorcall a fast calling protocol for CPython,3,A,0,Standards Track,Accepted,2019-03-29,A-12
+0620,Hide implementation details from the C API,3,A,0,Standards Track,Draft,2020-06-19,A-12
+0630,Isolating Extension Modules,3,A,0,Informational,Active,2020-08-25,A-12
+0652,Maintaining the Stable ABI,3,A,0,Standards Track,Final,2021-02-09,A-12
+3118,Revising the buffer protocol,3,A,0,Standards Track,Final,2006-08-28,A-12
+3121,Extension Module Initialization and Finalization,3,A,0,Standards Track,Accepted,2007-04-27,A-12
+3146,Merging Unladen Swallow into CPython,3,A,0,Standards Track,Withdrawn,2010-01-01,A-12
+0008,Style Guide for Python Code,4,A,0,Process,Active,2001-07-05,A-01
+0020,The Zen of Python,4,A,0,Informational,Active,2004-08-19,A-01
+0206,Python Advanced Library,4,A,0,Informational,Withdrawn,2000-07-14,A-01
+0275,Switching on Multiple Values,4,A,0,Standards Track,Rejected,2001-11-10,A-01
+0324,subprocess - New process module,4,A,0,Standards Track,Final,2003-11-19,A-01
+0335,Overloadable Boolean Operators,4,A,0,Standards Track,Rejected,2004-08-29,A-01
+0359,"The ""make"" Statement",4,A,0,Standards Track,Withdrawn,2006-04-05,A-01
+0360,Externally Maintained Packages,4,A,0,Process,Final,2006-05-30,A-01
+0364,Transitioning to the Py3K Standard Library,4,A,0,Standards Track,Withdrawn,2007-03-01,A-01
+0391,Dictionary-Based Configuration For Logging,4,A,0,Standards Track,Final,2009-10-15,A-01
+0403,"General purpose decorator clause (aka ""@in"" clause)",4,A,0,Standards Track,Deferred,2011-10-13,A-01
+0423,Naming conventions and recipes related to packaging,4,A,0,Informational,Deferred,2012-05-24,A-01
+0482,Literature Overview for Type Hints,4,A,0,Informational,Final,2015-01-08,A-01
+0483,The Theory of Type Hints,4,A,0,Informational,Final,2014-12-19,A-01
+0484,Type Hints,4,A,0,Standards Track,Provisional,2014-09-29,A-01
+0505,None-aware operators,4,A,0,Standards Track,Deferred,2015-09-18,A-01
+0526,Syntax for Variable Annotations,4,A,0,Standards Track,Final,2016-08-09,A-01
+0531,Existence checking operators,4,A,0,Standards Track,Withdrawn,2016-10-25,A-01
+0532,A circuit breaking protocol and binary operators,4,A,0,Standards Track,Deferred,2016-10-30,A-01
+0534,Improved Errors for Missing Standard Library Modules,4,A,0,Standards Track,Deferred,2016-09-05,A-01
+0535,Rich comparison chaining,4,A,0,Standards Track,Deferred,2016-11-12,A-01
+0544,Protocols Structural subtyping (static duck typing),4,A,0,Standards Track,Accepted,2017-03-05,A-01
+0545,Python Documentation Translations,4,A,0,Process,Final,2017-03-04,A-01
+0551,Security transparency in the Python runtime,4,A,0,Informational,Withdrawn,2017-08-23,A-01
+0557,Data Classes,4,A,0,Standards Track,Final,2017-06-02,A-01
+0560,Core support for typing module and generic types,4,A,0,Standards Track,Accepted,2017-09-03,A-01
+0561,Distributing and Packaging Type Information,4,A,0,Standards Track,Accepted,2017-09-09,A-01
+0563,Postponed Evaluation of Annotations,4,A,0,Standards Track,Accepted,2017-09-08,A-01
+0569,Python 3.8 Release Schedule,4,A,0,Informational,Active,2018-01-27,A-01
+0572,Assignment Expressions,4,A,0,Standards Track,Accepted,2018-02-28,A-01
+0578,Python Runtime Audit Hooks,4,A,0,Standards Track,Accepted,2018-06-16,A-01
+0584,Add Union Operators To dict,4,A,0,Standards Track,Final,2019-03-01,A-01
+0585,Type Hinting Generics In Standard Collections,4,A,0,Standards Track,Accepted,2019-03-03,A-01
+0586,Literal Types,4,A,0,Standards Track,Accepted,2019-03-14,A-01
+0589,TypedDict Type Hints for Dictionaries with a Fixed Set of Keys,4,A,0,Standards Track,Accepted,2019-03-20,A-01
+0591,Adding a final qualifier to typing,4,A,0,Standards Track,Accepted,2019-03-15,A-01
+0593,Flexible function and variable annotations,4,A,0,Standards Track,Accepted,2019-04-26,A-01
+0594,Removing dead batteries from the standard library,4,A,0,Standards Track,Draft,2019-05-20,A-01
+0597,Add optional EncodingWarning,4,A,0,Standards Track,Accepted,2019-06-05,A-01
+0601,Forbid return/break/continue breaking out of finally,4,A,0,Standards Track,Rejected,2019-08-26,A-01
+0604,Allow writing union types as X | Y,4,A,0,Standards Track,Accepted,2019-08-28,A-01
+0612,Parameter Specification Variables,4,A,0,Standards Track,Accepted,2019-12-18,A-01
+0613,Explicit Type Aliases,4,A,0,Standards Track,Accepted,2020-01-21,A-01
+0617,New PEG parser for CPython,4,A,0,Standards Track,Accepted,2020-03-24,A-01
+0618,Add Optional Length-Checking To zip,4,A,0,Standards Track,Final,2020-05-01,A-01
+0619,Python 3.10 Release Schedule,4,A,0,Informational,Draft,2020-05-25,A-01
+0622,Structural Pattern Matching,4,A,0,Standards Track,Superseded,2020-06-23,A-01
+0626,Precise line numbers for debugging and other tools.,4,A,0,Standards Track,Final,2020-07-15,A-01
+0634,Structural Pattern Matching Specification,4,A,0,Standards Track,Accepted,2020-09-12,A-01
+0635,Structural Pattern Matching Motivation and Rationale,4,A,0,Informational,Final,2020-09-12,A-01
+0636,Structural Pattern Matching Tutorial,4,A,0,Informational,Final,2020-09-12,A-01
+0637,Support for indexing with keyword arguments,4,A,0,Standards Track,Rejected,2020-08-24,A-01
+0638,Syntactic Macros,4,A,0,Standards Track,Draft,2020-09-24,A-01
+0640,Unused variable syntax,4,A,0,Standards Track,Draft,2020-10-04,A-01
+0642,Explicit Pattern Syntax for Structural Pattern Matching,4,A,0,Standards Track,Draft,2020-09-26,A-01
+0644,Require OpenSSL 1.1.1 or newer,4,A,0,Standards Track,Final,2020-10-27,A-01
+0645,Allow writing optional types as x?,4,A,0,Process,Draft,2020-08-25,A-01
+0646,Variadic Generics,4,A,0,Standards Track,Draft,2020-09-16,A-01
+0647,User-Defined Type Guards,4,A,0,Standards Track,Accepted,2020-10-07,A-01
+0649,Deferred Evaluation Of Annotations Using Descriptors,4,A,0,Standards Track,Draft,2021-01-11,A-01
+0653,Precise Semantics for Pattern Matching,4,A,0,Standards Track,Draft,2021-02-09,A-01
+0655,Marking individual TypedDict items as required or potentially-missing,4,A,0,Standards Track,Draft,2021-01-30,A-01
+3103,A Switch/Case Statement,4,A,0,Standards Track,Rejected,2006-06-25,A-01
+3107,Function Annotations,4,A,0,Standards Track,Final,2006-12-02,A-01
+3108,Standard Library Reorganization,4,A,0,Standards Track,Final,2007-01-01,A-01
+3117,Postfix type declarations,4,A,0,Standards Track,Rejected,2007-04-01,A-01
+3131,Supporting Non-ASCII Identifiers,4,A,0,Standards Track,Final,2007-05-01,A-01
+3150,"Statement local namespaces (aka ""given"" clause)",4,A,0,Standards Track,Deferred,2010-07-09,A-01
+0010,Voting Guidelines,5,C,1,Process,Active,2002-03-07,C-01
+0011,Removing support for little used platforms,6,A,0,Process,Active,2002-07-07,A-03
+0277,Unicode file name support for Windows NT,6,A,0,Standards Track,Final,2002-01-11,A-03
+0293,Codec Error Handling Callbacks,6,A,0,Standards Track,Final,2002-06-18,A-03
+0315,Enhanced While Loop,6,A,0,Standards Track,Rejected,2003-04-25,A-03
+0351,The freeze protocol,6,A,0,Standards Track,Rejected,2005-04-14,A-03
+0355,Path - Object oriented filesystem paths,6,A,0,Standards Track,Rejected,2006-01-24,A-03
+0372,Adding an ordered dictionary to collections,6,A,0,Standards Track,Final,2008-06-15,A-03
+0375,Python 3.1 Release Schedule,6,A,0,Informational,Final,2009-02-08,A-03
+0383,Non-decodable Bytes in System Character Interfaces,6,A,0,Standards Track,Final,2009-04-22,A-03
+0393,Flexible String Representation,6,A,0,Standards Track,Final,2010-01-24,A-03
+0412,Key-Sharing Dictionary,6,A,0,Standards Track,Final,2012-02-08,A-03
+0416,Add a frozendict builtin type,6,A,0,Standards Track,Rejected,2012-02-29,A-03
+0422,Simpler customisation of class creation,6,A,0,Standards Track,Withdrawn,2012-06-05,A-03
+0428,The pathlib module -- object-oriented filesystem paths,6,A,0,Standards Track,Final,2012-07-30,A-03
+0431,Time zone support improvements,6,A,0,Standards Track,Superseded,2012-12-11,A-03
+0432,Restructuring the CPython startup sequence,6,A,0,Standards Track,Withdrawn,2012-12-28,A-03
+0456,Secure and interchangeable hash algorithm,6,A,0,Standards Track,Final,2013-09-27,A-03
+0468,Preserving the order of **kwargs in a function.,6,A,0,Standards Track,Final,2014-04-05,A-03
+0472,Support for indexing with keyword arguments,6,A,0,Standards Track,Rejected,2014-06-24,A-03
+0487,Simpler customisation of class creation,6,A,0,Standards Track,Final,2015-02-27,A-03
+0494,Python 3.6 Release Schedule,6,A,0,Informational,Active,2015-05-30,A-03
+0495,Local Time Disambiguation,6,A,0,Standards Track,Final,2015-08-02,A-03
+0500,"A protocol for delegating datetime methods to their
+tzinfo implementations",6,A,0,Standards Track,Rejected,2015-08-08,A-03
+0504,Using the System RNG by default,6,A,0,Standards Track,Withdrawn,2015-09-15,A-03
+0506,Adding A Secrets Module To The Standard Library,6,A,0,Standards Track,Final,2015-09-19,A-03
+0509,Add a private version to dict,6,A,0,Standards Track,Final,2016-01-04,A-03
+0510,Specialize functions with guards,6,A,0,Standards Track,Rejected,2016-01-04,A-03
+0511,API for code transformers,6,A,0,Standards Track,Rejected,2016-01-04,A-03
+0515,Underscores in Numeric Literals,6,A,0,Standards Track,Final,2016-02-10,A-03
+0519,Adding a file system path protocol,6,A,0,Standards Track,Final,2016-05-11,A-03
+0520,Preserving Class Attribute Definition Order,6,A,0,Standards Track,Final,2016-06-07,A-03
+0522,Allow BlockingIOError in security sensitive APIs,6,A,0,Standards Track,Rejected,2016-06-16,A-03
+0523,Adding a frame evaluation API to CPython,6,A,0,Standards Track,Final,2016-05-16,A-03
+0524,Make os.urandom() blocking on Linux,6,A,0,Standards Track,Final,2016-06-20,A-03
+0528,Change Windows console encoding to UTF-8,6,A,0,Standards Track,Final,2016-08-27,A-03
+0529,Change Windows filesystem encoding to UTF-8,6,A,0,Standards Track,Final,2016-08-27,A-03
+0537,Python 3.7 Release Schedule,6,A,0,Informational,Active,2016-12-23,A-03
+0538,Coercing the legacy C locale to a UTF-8 based locale,6,A,0,Standards Track,Final,2016-12-28,A-03
+0539,A New C-API for Thread-Local Storage in CPython,6,A,0,Standards Track,Final,2016-12-20,A-03
+0540,Add a new UTF-8 Mode,6,A,0,Standards Track,Final,2016-01-05,A-03
+0548,More Flexible Loop Control,6,A,0,Standards Track,Rejected,2017-09-05,A-03
+0549,Instance Descriptors,6,A,0,Standards Track,Rejected,2017-09-04,A-03
+0552,Deterministic pycs,6,A,0,Standards Track,Final,2017-09-04,A-03
+0553,Built-in breakpoint(),6,A,0,Standards Track,Final,2017-09-05,A-03
+0559,Built-in noop(),6,A,0,Standards Track,Rejected,2017-09-08,A-03
+0562,Module __getattr__ and __dir__,6,A,0,Standards Track,Final,2017-09-09,A-03
+0587,Python Initialization Configuration,6,A,0,Standards Track,Final,2019-03-27,A-03
+0615,Support for the IANA Time Zone Database in the Standard Library,6,A,0,Standards Track,Accepted,2020-02-22,A-03
+0623,Remove wstr from Unicode,6,A,0,Standards Track,Accepted,2020-06-25,A-03
+0624,Remove Py_UNICODE encoder APIs,6,A,0,Standards Track,Final,2020-07-06,A-03
+0641,Using an underscore in the version portion of Python 3.10 compatibility tags,6,A,0,Standards Track,Rejected,2020-10-20,A-03
+3115,Metaclasses in Python 3000,6,A,0,Standards Track,Final,2007-03-07,A-03
+0100,Python Unicode Integration,7,B,2,Standards Track,Final,2000-03-10,B-01
+0400,Deprecate codecs.StreamReader and codecs.StreamWriter,7,B,2,Standards Track,Deferred,2011-05-28,B-01
+3116,New I/O,7,B,2,Standards Track,Final,2007-02-26,B-01
+0101,Doing Python Releases 101,8,A,0,Informational,Active,2001-08-22,A-10
+0102,Doing Python Micro Releases,8,A,0,Informational,Superseded,2001-08-22,A-10
+0213,Attribute Access Handlers,8,A,0,Standards Track,Deferred,2000-07-21,A-10
+0228,Reworking Python's Numeric Model,8,A,0,Standards Track,Withdrawn,2000-11-04,A-10
+0231,__findattr__(),8,A,0,Standards Track,Rejected,2000-11-30,A-10
+0237,Unifying Long Integers and Integers,8,A,0,Standards Track,Final,2001-03-11,A-10
+0238,Changing the Division Operator,8,A,0,Standards Track,Final,2001-03-11,A-10
+0239,Adding a Rational Type to Python,8,A,0,Standards Track,Rejected,2001-03-11,A-10
+0240,Adding a Rational Literal to Python,8,A,0,Standards Track,Rejected,2001-03-11,A-10
+0251,Python 2.2 Release Schedule,8,A,0,Informational,Final,2001-04-17,A-10
+0252,Making Types Look More Like Classes,8,A,0,Standards Track,Final,2001-04-19,A-10
+0253,Subtyping Built-in Types,8,A,0,Standards Track,Final,2001-05-14,A-10
+0254,Making Classes Look More Like Types,8,A,0,Standards Track,Rejected,2001-06-18,A-10
+0264,Future statements in simulated shells,8,A,0,Standards Track,Final,2001-07-30,A-10
+0313,Adding Roman Numeral Literals to Python,8,A,0,Standards Track,Rejected,2003-04-01,A-10
+0327,Decimal Data Type,8,A,0,Standards Track,Final,2003-10-17,A-10
+0347,Migrating the Python CVS to Subversion,8,A,0,Process,Final,2004-07-14,A-10
+0374,Choosing a distributed VCS for the Python project,8,A,0,Process,Final,2008-11-07,A-10
+0385,Migrating from Subversion to Mercurial,8,A,0,Process,Final,2009-05-25,A-10
+0462,Core development workflow automation for CPython,8,A,0,Process,Withdrawn,2014-01-23,A-10
+0474,Creating forge.python.org,8,A,0,Process,Withdrawn,2014-07-19,A-10
+0481,"Migrate CPython to Git, Github, and Phabricator",8,A,0,Process,Withdrawn,2014-11-29,A-10
+0507,Migrate CPython to Git and GitLab,8,A,0,Process,Rejected,2015-09-30,A-10
+0512,Migrating from hg.python.org to GitHub,8,A,0,Process,Final,2015-01-17,A-10
+3141,A Type Hierarchy for Numbers,8,A,0,Standards Track,Final,2007-04-23,A-10
+0103,Collecting information about git,9,C,3,Informational,Withdrawn,2015-06-01,C-32
+0160,Python 1.6 Release Schedule,10,C,4,Informational,Final,2000-07-25,C-34
+0200,Python 2.0 Release Schedule,11,B,5,Informational,Final,2000-07-12,B-02
+0214,Extended Print Statement,11,B,5,Standards Track,Final,2000-07-24,B-02
+0223,Change the Meaning of \x Escapes,11,B,5,Standards Track,Final,2000-08-20,B-02
+0201,Lockstep Iteration,12,A,0,Standards Track,Final,2000-07-13,A-05
+0203,Augmented Assignments,12,A,0,Standards Track,Final,2000-07-13,A-05
+0207,Rich Comparisons,12,A,0,Standards Track,Final,2000-07-25,A-05
+0208,Reworking the Coercion Model,12,A,0,Standards Track,Final,2000-12-04,A-05
+0209,Multi-dimensional Arrays,12,A,0,Standards Track,Withdrawn,2001-01-03,A-05
+0211,Adding A New Outer Product Operator,12,A,0,Standards Track,Rejected,2000-07-15,A-05
+0225,Elementwise/Objectwise Operators,12,A,0,Standards Track,Rejected,2000-09-19,A-05
+0354,Enumerations in Python,12,A,0,Standards Track,Superseded,2005-12-20,A-05
+0380,Syntax for Delegating to a Subgenerator,12,A,0,Standards Track,Final,2009-02-13,A-05
+0429,Python 3.4 Release Schedule,12,A,0,Informational,Final,2012-10-17,A-05
+0433,Easier suppression of file descriptor inheritance,12,A,0,Standards Track,Superseded,2013-01-10,A-05
+0435,Adding an Enum type to the Python standard library,12,A,0,Standards Track,Final,2013-02-23,A-05
+0436,The Argument Clinic DSL,12,A,0,Standards Track,Final,2013-02-22,A-05
+0437,"A DSL for specifying signatures, annotations and argument converters",12,A,0,Standards Track,Rejected,2013-03-11,A-05
+0441,Improving Python ZIP Application Support,12,A,0,Standards Track,Final,2013-03-30,A-05
+0442,Safe object finalization,12,A,0,Standards Track,Final,2013-05-18,A-05
+0445,Add new APIs to customize Python memory allocators,12,A,0,Standards Track,Final,2013-06-15,A-05
+0446,Make newly created file descriptors non-inheritable,12,A,0,Standards Track,Final,2013-08-05,A-05
+0447,Add __getdescriptor__ method to metaclass,12,A,0,Standards Track,Deferred,2013-06-12,A-05
+0448,Additional Unpacking Generalizations,12,A,0,Standards Track,Final,2013-06-29,A-05
+0450,Adding A Statistics Module To The Standard Library,12,A,0,Standards Track,Final,2013-08-01,A-05
+0454,Add a new tracemalloc module to trace Python memory allocations,12,A,0,Standards Track,Final,2013-09-03,A-05
+0455,Adding a key-transforming dictionary to collections,12,A,0,Standards Track,Rejected,2013-09-13,A-05
+0465,A dedicated infix operator for matrix multiplication,12,A,0,Standards Track,Final,2014-02-20,A-05
+0471,os.scandir() function -- a better and faster directory iterator,12,A,0,Standards Track,Final,2014-05-30,A-05
+0475,Retry system calls failing with EINTR,12,A,0,Standards Track,Final,2014-07-29,A-05
+0478,Python 3.5 Release Schedule,12,A,0,Informational,Active,2014-09-22,A-05
+0479,Change StopIteration handling inside generators,12,A,0,Standards Track,Final,2014-11-15,A-05
+0485,A Function for testing approximate equality,12,A,0,Standards Track,Final,2015-01-20,A-05
+0488,Elimination of PYO files,12,A,0,Standards Track,Final,2015-02-20,A-05
+0492,Coroutines with async and await syntax,12,A,0,Standards Track,Final,2015-04-09,A-05
+0521,Managing global context via 'with' blocks in generators and coroutines,12,A,0,Standards Track,Withdrawn,2015-04-27,A-05
+0525,Asynchronous Generators,12,A,0,Standards Track,Final,2016-07-28,A-05
+0530,Asynchronous Comprehensions,12,A,0,Standards Track,Final,2016-09-03,A-05
+0550,Execution Context,12,A,0,Standards Track,Withdrawn,2017-08-11,A-05
+0567,Context Variables,12,A,0,Standards Track,Final,2017-12-12,A-05
+0568,Generator-sensitivity for Context Variables,12,A,0,Standards Track,Deferred,2018-01-04,A-05
+0603,Adding a frozenmap type to collections,12,A,0,Standards Track,Draft,2019-09-12,A-05
+3145,Asynchronous I/O For subprocess.Popen,12,A,0,Standards Track,Withdrawn,2009-08-04,A-05
+3148,futures - execute computations asynchronously,12,A,0,Standards Track,Final,2009-10-16,A-05
+3152,Cofunctions,12,A,0,Standards Track,Rejected,2009-02-13,A-05
+3156,"Asynchronous IO Support Rebooted the ""asyncio"" Module",12,A,0,Standards Track,Final,2012-12-12,A-05
+0205,Weak References,13,C,6,Standards Track,Final,2000-07-14,C-35
+0210,Decoupling the Interpreter Loop,14,C,7,Standards Track,Rejected,2000-07-15,C-36
+0215,String Interpolation,15,A,0,Standards Track,Superseded,2000-07-24,A-13
+0292,Simpler String Substitutions,15,A,0,Standards Track,Final,2002-06-18,A-13
+0306,How to Change Python's Grammar,15,A,0,Informational,Withdrawn,2003-01-29,A-13
+0378,Format Specifier for Thousands Separator,15,A,0,Standards Track,Final,2009-03-12,A-13
+0460,Add binary interpolation and formatting,15,A,0,Standards Track,Withdrawn,2014-01-06,A-13
+0461,Adding % formatting to bytes and bytearray,15,A,0,Standards Track,Final,2014-01-13,A-13
+0498,Literal String Interpolation,15,A,0,Standards Track,Final,2015-08-01,A-13
+0501,General purpose string interpolation,15,A,0,Standards Track,Deferred,2015-08-08,A-13
+0502,String Interpolation - Extended Discussion,15,A,0,Informational,Rejected,2015-08-10,A-13
+0536,Final Grammar for Literal String Interpolation,15,A,0,Standards Track,Deferred,2016-12-11,A-13
+3101,Advanced String Formatting,15,A,0,Standards Track,Final,2006-04-16,A-13
+3126,Remove Implicit String Concatenation,15,A,0,Standards Track,Rejected,2007-04-29,A-13
+3127,Integer Literal Support and Syntax,15,A,0,Standards Track,Final,2007-03-14,A-13
+0217,Display Hook for Interactive Use,16,C,8,Standards Track,Final,2000-07-31,C-37
+0218,Adding a Built-In Set Object Type,17,A,0,Standards Track,Final,2000-07-31,A-08
+0232,Function Attributes,17,A,0,Standards Track,Final,2000-12-02,A-08
+0233,Python Online Help,17,A,0,Standards Track,Deferred,2000-12-11,A-08
+0245,Python Interface Syntax,17,A,0,Standards Track,Rejected,2001-01-11,A-08
+0246,Object Adaptation,17,A,0,Standards Track,Rejected,2001-03-21,A-08
+0263,Defining Python Source Code Encodings,17,A,0,Standards Track,Final,2001-06-06,A-08
+0266,Optimizing Global Variable/Attribute Access,17,A,0,Standards Track,Withdrawn,2001-08-13,A-08
+0267,Optimized Access to Module Namespaces,17,A,0,Standards Track,Deferred,2001-05-23,A-08
+0269,Pgen Module for Python,17,A,0,Standards Track,Deferred,2001-08-24,A-08
+0270,uniq method for list objects,17,A,0,Standards Track,Rejected,2001-08-21,A-08
+0273,Import Modules from Zip Archives,17,A,0,Standards Track,Final,2001-10-11,A-08
+0278,Universal Newline Support,17,A,0,Standards Track,Final,2002-01-14,A-08
+0280,Optimizing access to globals,17,A,0,Standards Track,Deferred,2002-02-10,A-08
+0282,A Logging System,17,A,0,Standards Track,Final,2002-02-04,A-08
+0283,Python 2.3 Release Schedule,17,A,0,Informational,Final,2002-02-27,A-08
+0285,Adding a bool type,17,A,0,Standards Track,Final,2002-03-08,A-08
+0286,Enhanced Argument Tuples,17,A,0,Standards Track,Deferred,2002-03-03,A-08
+0304,Controlling Generation of Bytecode Files,17,A,0,Standards Track,Withdrawn,2003-01-22,A-08
+0307,Extensions to the pickle protocol,17,A,0,Standards Track,Final,2003-01-31,A-08
+0311,Simplified Global Interpreter Lock Acquisition for Extensions,17,A,0,Standards Track,Final,2003-02-05,A-08
+0320,Python 2.4 Release Schedule,17,A,0,Informational,Final,2003-07-29,A-08
+0322,Reverse Iteration,17,A,0,Standards Track,Final,2003-09-24,A-08
+0329,Treating Builtins as Constants in the Standard Library,17,A,0,Standards Track,Rejected,2004-04-18,A-08
+0337,Logging Usage in the Standard Library,17,A,0,Standards Track,Deferred,2004-10-02,A-08
+0443,Single-dispatch generic functions,17,A,0,Standards Track,Final,2013-05-22,A-08
+3120,Using UTF-8 as the default source encoding,17,A,0,Standards Track,Final,2007-04-15,A-08
+3124,"Overloading, Generic Functions, Interfaces, and Adaptation",17,A,0,Standards Track,Deferred,2007-04-28,A-08
+0221,Import As,18,C,9,Standards Track,Final,2000-08-15,C-38
+0222,Web Library Enhancements,19,C,10,Standards Track,Deferred,2000-08-18,C-39
+0229,Using Distutils to Build Python,20,C,11,Standards Track,Final,2000-11-16,C-40
+0241,Metadata for Python Software Packages,21,A,0,Standards Track,Final,2001-03-12,A-04
+0243,Module Repository Upload Mechanism,21,A,0,Standards Track,Withdrawn,2001-03-18,A-04
+0262,A Database of Installed Python Packages,21,A,0,Standards Track,Deferred,2001-07-08,A-04
+0301,Package Index and Metadata for Distutils,21,A,0,Standards Track,Final,2002-10-24,A-04
+0314,Metadata for Python Software Packages v1.1,21,A,0,Standards Track,Final,2003-04-12,A-04
+0345,Metadata for Python Software Packages 1.2,21,A,0,Standards Track,Final,2005-04-28,A-04
+0376,Database of Installed Python Distributions,21,A,0,Standards Track,Final,2009-02-22,A-04
+0386,Changing the version comparison module in Distutils,21,A,0,Standards Track,Superseded,2009-06-04,A-04
+0390,Static metadata for Distutils,21,A,0,Standards Track,Rejected,2009-10-10,A-04
+0396,Module Version Numbers,21,A,0,Informational,Rejected,2011-03-16,A-04
+0425,Compatibility Tags for Built Distributions,21,A,0,Standards Track,Final,2012-07-27,A-04
+0426,Metadata for Python Software Packages 2.0,21,A,0,Informational,Withdrawn,2012-08-30,A-04
+0427,The Wheel Binary Package Format 1.0,21,A,0,Standards Track,Final,2012-09-20,A-04
+0440,Version Identification and Dependency Specification,21,A,0,Informational,Active,2013-03-18,A-04
+0453,Explicit bootstrapping of pip in Python installations,21,A,0,Standards Track,Final,2013-08-10,A-04
+0459,Standard Metadata Extensions for Python Software Packages,21,A,0,Standards Track,Withdrawn,2013-11-11,A-04
+0477,Backport ensurepip (PEP 453) to Python 2.7,21,A,0,Standards Track,Final,2014-08-26,A-04
+0491,The Wheel Binary Package Format 1.9,21,A,0,Standards Track,Deferred,2015-04-16,A-04
+0496,Environment Markers,21,A,0,Informational,Rejected,2015-07-03,A-04
+0503,Simple Repository API,21,A,0,Informational,Accepted,2015-09-04,A-04
+0508,Dependency specification for Python Software Packages,21,A,0,Informational,Active,2015-11-11,A-04
+0513,A Platform Tag for Portable Linux Built Distributions,21,A,0,Informational,Active,2016-01-19,A-04
+0516,Build system abstraction for pip/conda etc,21,A,0,Standards Track,Rejected,2015-10-26,A-04
+0517,A build-system independent format for source trees,21,A,0,Standards Track,Provisional,2015-09-30,A-04
+0518,Specifying Minimum Build System Requirements for Python Projects,21,A,0,Standards Track,Final,2016-05-10,A-04
+0527,Removing Un(der)used file types/extensions on PyPI,21,A,0,Process,Final,2016-08-23,A-04
+0566,Metadata for Python Software Packages 2.1,21,A,0,Standards Track,Final,2017-12-01,A-04
+0571,The manylinux2010 Platform Tag,21,A,0,Informational,Active,2018-02-05,A-04
+0592,"Adding ""Yank"" Support to the Simple API",21,A,0,Standards Track,Final,2019-05-07,A-04
+0599,The manylinux2014 Platform Tag,21,A,0,Informational,Final,2019-04-29,A-04
+0600,Future 'manylinux' Platform Tags for Portable Linux Built Distributions,21,A,0,Informational,Accepted,2019-05-03,A-04
+0610,Recording the Direct URL Origin of installed distributions,21,A,0,Standards Track,Final,2019-04-21,A-04
+0621,Storing project metadata in pyproject.toml,21,A,0,Standards Track,Final,2020-06-22,A-04
+0625,File name of a Source Distribution,21,A,0,Standards Track,Draft,2020-07-08,A-04
+0627,Recording installed projects,21,A,0,Informational,Accepted,2020-07-15,A-04
+0629,Versioning PyPI's Simple API,21,A,0,Standards Track,Final,2020-07-16,A-04
+0631,Dependency specification in pyproject.toml based on PEP 508,21,A,0,Standards Track,Accepted,2020-08-20,A-04
+0632,Deprecate distutils module,21,A,0,Standards Track,Accepted,2020-09-03,A-04
+0633,Dependency specification in pyproject.toml using an exploded TOML table,21,A,0,Standards Track,Rejected,2020-09-02,A-04
+0639,Metadata for Python Software Packages 2.2,21,A,0,Standards Track,Draft,2019-08-15,A-04
+0643,Metadata for Package Source Distributions,21,A,0,Standards Track,Accepted,2020-10-24,A-04
+0650,Specifying Installer Requirements for Python Projects,21,A,0,Process,Draft,2020-07-16,A-04
+0656,Platform Tag for Linux Distributions Using Musl,21,A,0,Informational,Accepted,2021-03-17,A-04
+0658,Static Distribution Metadata in the Simple Repository API,21,A,0,Standards Track,Draft,2021-05-10,A-04
+0660,Editable installs for PEP 517 style build backends,21,A,0,Standards Track,Draft,2021-03-30,A-04
+3147,PYC Repository Directories,21,A,0,Standards Track,Final,2009-12-16,A-04
+3149,ABI version tagged .so files,21,A,0,Standards Track,Final,2010-07-09,A-04
+0242,Numeric Kinds,22,C,12,Standards Track,Rejected,2001-03-17,C-41
+0247,API for Cryptographic Hash Functions,23,B,13,Informational,Final,2001-03-23,B-04
+0452,API for Cryptographic Hash Functions v2.0,23,B,13,Informational,Final,2013-08-15,B-04
+0248,Python Database API Specification v1.0,24,B,14,Informational,Final,2001-03-29,B-05
+0249,Python Database API Specification v2.0,24,B,14,Informational,Final,2001-03-29,B-05
+0250,Using site-packages on Windows,25,C,15,Standards Track,Final,2001-03-30,C-42
+0259,Omit printing newline after newline,26,C,16,Standards Track,Rejected,2001-06-11,C-43
+0260,Simplify xrange(),27,C,17,Standards Track,Final,2001-06-26,C-44
+0261,"Support for ""wide"" Unicode characters",28,C,18,Standards Track,Final,2001-06-27,C-45
+0265,Sorting Dictionaries by Value,29,C,19,Standards Track,Rejected,2001-08-08,C-46
+0268,Extended HTTP functionality and WebDAV,30,C,20,Standards Track,Rejected,2001-08-20,C-47
+0271,Prefixing sys.path by command line option,31,C,21,Standards Track,Rejected,2001-08-15,C-48
+0272,API for Block Encryption Algorithms v1.0,32,C,22,Informational,Final,2001-09-18,C-49
+0291,Backward Compatibility for the Python 2 Standard Library,33,C,23,Informational,Final,2002-06-06,C-50
+0295,Interpretation of multiline string constants,34,C,24,Standards Track,Rejected,2002-07-22,C-51
+0297,Support for System Upgrades,35,C,25,Standards Track,Rejected,2001-07-19,C-52
+0299,Special __main__() function in modules,36,A,0,Standards Track,Rejected,2002-08-12,A-11
+0302,New Import Hooks,36,A,0,Standards Track,Final,2002-12-19,A-11
+0308,Conditional Expressions,36,A,0,Standards Track,Final,2003-02-07,A-11
+0309,Partial Function Application,36,A,0,Standards Track,Final,2003-02-08,A-11
+0312,Simple Implicit Lambda,36,A,0,Standards Track,Deferred,2003-02-11,A-11
+0318,Decorators for Functions and Methods,36,A,0,Standards Track,Final,2003-06-05,A-11
+0328,Imports Multi-Line and Absolute/Relative,36,A,0,Standards Track,Final,2003-12-21,A-11
+0338,Executing modules as scripts,36,A,0,Standards Track,Final,2004-10-16,A-11
+0341,Unifying try-except and try-finally,36,A,0,Standards Track,Final,2005-05-04,A-11
+0353,Using ssize_t as the index type,36,A,0,Standards Track,Final,2005-12-18,A-11
+0356,Python 2.5 Release Schedule,36,A,0,Informational,Final,2006-02-07,A-11
+0357,Allowing Any Object to be Used for Slicing,36,A,0,Standards Track,Final,2006-02-09,A-11
+0366,Main module explicit relative imports,36,A,0,Standards Track,Final,2007-05-01,A-11
+0369,Post import hooks,36,A,0,Standards Track,Withdrawn,2008-01-02,A-11
+0382,Namespace Packages,36,A,0,Standards Track,Rejected,2009-04-02,A-11
+0395,Qualified Names for Modules,36,A,0,Standards Track,Withdrawn,2011-03-04,A-11
+0402,Simplified Package Layout and Partitioning,36,A,0,Standards Track,Rejected,2011-07-12,A-11
+0406,Improved Encapsulation of Import State,36,A,0,Standards Track,Withdrawn,2011-07-04,A-11
+0420,Implicit Namespace Packages,36,A,0,Standards Track,Final,2012-04-19,A-11
+0451,A ModuleSpec Type for the Import System,36,A,0,Standards Track,Final,2013-08-08,A-11
+0463,Exception-catching expressions,36,A,0,Standards Track,Rejected,2014-02-15,A-11
+0499,python -m foo should bind sys.modules['foo'] in addition to sys.modules['__main__'],36,A,0,Standards Track,Deferred,2015-08-07,A-11
+3122,Delineation of the main module,36,A,0,Standards Track,Rejected,2007-04-27,A-11
+3129,Class Decorators,36,A,0,Standards Track,Final,2007-05-01,A-11
+3133,Introducing Roles,36,A,0,Standards Track,Rejected,2007-05-01,A-11
+0303,Extend divmod() for Multiple Divisors,37,C,26,Standards Track,Rejected,2002-12-31,C-53
+0305,CSV File API,38,A,0,Standards Track,Final,2003-01-26,A-14
+0381,Mirroring infrastructure for PyPI,38,A,0,Standards Track,Withdrawn,2009-03-21,A-14
+0438,Transitioning to release-file hosting on PyPI,38,A,0,Process,Superseded,2013-03-15,A-14
+0449,Removal of the PyPI Mirror Auto Discovery and Naming Scheme,38,A,0,Process,Final,2013-08-04,A-14
+0458,Secure PyPI downloads with signed repository metadata,38,A,0,Standards Track,Accepted,2013-09-27,A-14
+0464,Removal of the PyPI Mirror Authenticity API,38,A,0,Process,Final,2014-03-02,A-14
+0470,Removing External Hosting Support on PyPI,38,A,0,Process,Final,2014-05-12,A-14
+0480,Surviving a Compromise of PyPI End-to-end signing of packages,38,A,0,Standards Track,Draft,2014-10-08,A-14
+0316,Programming by Contract for Python,39,C,27,Standards Track,Deferred,2003-05-02,C-54
+0321,Date/Time Parsing and Formatting,40,C,28,Standards Track,Withdrawn,2003-09-16,C-55
+0326,A Case for Top and Bottom Values,41,C,29,Standards Track,Rejected,2003-12-20,C-56
+0330,Python Bytecode Verification,42,C,30,Standards Track,Rejected,2004-06-17,C-57
+0332,Byte vectors and String/Unicode Unification,43,C,31,Standards Track,Rejected,2004-08-11,C-58
+0336,Make None Callable,44,C,32,Standards Track,Rejected,2004-10-28,C-59
+0339,Design of the CPython Compiler,45,C,33,Informational,Withdrawn,2005-02-02,C-60
+0349,Allow str() to return unicode strings,46,C,34,Standards Track,Rejected,2005-08-02,C-33
+0350,Codetags,47,C,35,Informational,Rejected,2005-06-27,C-31
+0362,Function Signature Object,48,A,0,Standards Track,Final,2006-08-21,A-06
+0370,Per user site-packages directory,48,A,0,Standards Track,Final,2008-01-11,A-06
+0373,Python 2.7 Release Schedule,48,A,0,Informational,Final,2008-11-03,A-06
+0392,Python 3.2 Release Schedule,48,A,0,Informational,Final,2009-12-30,A-06
+0394,"The ""python"" Command on Unix-Like Systems",48,A,0,Informational,Active,2011-03-02,A-06
+0397,Python launcher for Windows,48,A,0,Standards Track,Final,2011-03-15,A-06
+0398,Python 3.3 Release Schedule,48,A,0,Informational,Final,2011-03-23,A-06
+0399,Pure Python/C Accelerator Module Compatibility Requirements,48,A,0,Informational,Final,2011-04-04,A-06
+0404,Python 2.8 Un-release Schedule,48,A,0,Informational,Final,2011-11-09,A-06
+0405,Python Virtual Environments,48,A,0,Standards Track,Final,2011-06-13,A-06
+0407,New release cycle and introducing long-term support versions,48,A,0,Process,Deferred,2012-01-12,A-06
+0409,Suppressing exception context,48,A,0,Standards Track,Final,2012-01-26,A-06
+0410,Use decimal.Decimal type for timestamps,48,A,0,Standards Track,Rejected,2012-02-01,A-06
+0413,Faster evolution of the Python Standard Library,48,A,0,Process,Withdrawn,2012-02-24,A-06
+0414,Explicit Unicode Literal for Python 3.3,48,A,0,Standards Track,Final,2012-02-15,A-06
+0415,Implement context suppression with exception attributes,48,A,0,Standards Track,Final,2012-02-26,A-06
+0417,Including mock in the Standard Library,48,A,0,Standards Track,Final,2012-03-12,A-06
+0418,"Add monotonic time, performance counter, and process time functions",48,A,0,Standards Track,Final,2012-03-26,A-06
+0421,Adding sys.implementation,48,A,0,Standards Track,Final,2012-04-26,A-06
+0439,Inclusion of implicit pip bootstrap in Python installation,48,A,0,Standards Track,Rejected,2013-03-18,A-06
+0457,Notation For Positional-Only Parameters,48,A,0,Informational,Final,2013-10-08,A-06
+0466,Network Security Enhancements for Python 2.7.x,48,A,0,Standards Track,Final,2014-03-23,A-06
+0476,Enabling certificate verification by default for stdlib http clients,48,A,0,Standards Track,Final,2014-08-28,A-06
+0486,Make the Python Launcher aware of virtual environments,48,A,0,Standards Track,Final,2015-02-12,A-06
+0490,Chain exceptions at C level,48,A,0,Standards Track,Rejected,2015-03-25,A-06
+0493,HTTPS verification migration tools for Python 2.7,48,A,0,Standards Track,Final,2015-05-10,A-06
+0514,Python registration in the Windows registry,48,A,0,Informational,Active,2016-02-02,A-06
+0543,A Unified TLS API for Python,48,A,0,Standards Track,Withdrawn,2016-10-17,A-06
+0546,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,48,A,0,Standards Track,Rejected,2017-05-30,A-06
+0564,Add new time functions with nanosecond resolution,48,A,0,Standards Track,Final,2017-10-16,A-06
+0570,Python Positional-Only Parameters,48,A,0,Standards Track,Accepted,2018-01-20,A-06
+3003,Python Language Moratorium,48,A,0,Process,Final,2009-10-21,A-06
+3102,Keyword-Only Arguments,48,A,0,Standards Track,Final,2006-04-22,A-06
+3113,Removal of Tuple Parameter Unpacking,48,A,0,Standards Track,Final,2007-03-02,A-06
+3114,Renaming iterator.next() to iterator.__next__(),48,A,0,Standards Track,Final,2007-03-04,A-06
+3139,"Cleaning out sys and the ""interpreter"" module",48,A,0,Standards Track,Rejected,2008-04-04,A-06
+3154,Pickle protocol version 4,48,A,0,Standards Track,Final,2011-08-11,A-06
+3155,Qualified name for classes and functions,48,A,0,Standards Track,Final,2011-10-29,A-06
+0363,Syntax For Dynamic Attribute Access,49,C,36,Standards Track,Rejected,2007-01-29,C-02
+0365,Adding the pkg_resources module,50,C,37,Standards Track,Rejected,2007-04-30,C-30
+0379,Adding an Assignment Expression,51,C,38,Standards Track,Withdrawn,2009-03-14,C-03
+0389,argparse - New Command Line Parsing Module,52,C,39,Standards Track,Final,2009-09-25,C-04
+0401,BDFL Retirement,53,C,40,Process,April Fool!,2009-04-01,C-05
+0419,Protecting cleanup statements from interruptions,54,C,41,Standards Track,Deferred,2012-04-06,C-06
+0424,A method for exposing a length hint,55,C,42,Standards Track,Final,2012-07-14,C-07
+0430,Migrating to Python 3 as the default online documentation,56,C,43,Informational,Final,2012-10-27,C-08
+0434,IDLE Enhancement Exception for All Branches,57,C,44,Informational,Active,2013-02-16,C-09
+0469,Migration of dict iteration code to Python 3,58,B,45,Standards Track,Withdrawn,2014-04-18,B-06
+3106,"Revamping dict.keys(), .values() and .items()",58,B,45,Standards Track,Final,2006-12-19,B-06
+0473,Adding structured data to built-in exceptions,59,C,46,Standards Track,Rejected,2014-03-29,C-10
+0541,Package Index Name Retention,60,C,47,Process,Final,2017-01-12,C-11
+0542,Dot Notation Assignment In Function Header,61,C,48,Standards Track,Rejected,2017-02-10,C-12
+0555,Context-local variables (contextvars),62,C,49,Standards Track,Withdrawn,2017-09-06,C-13
+0556,Threaded garbage collection,63,C,50,Standards Track,Deferred,2017-09-08,C-14
+0581,Using GitHub Issues for CPython,64,B,51,Process,Accepted,2018-06-20,B-03
+0588,GitHub Issues Migration Plan,64,B,51,Informational,Draft,2019-03-27,B-03
+0595,Improving bugs.python.org,64,B,51,Informational,Withdrawn,2019-05-12,B-03
+0582,Python local packages directory,65,C,52,Standards Track,Draft,2018-05-16,C-15
+0583,A Concurrency Memory Model for Python,66,C,53,Informational,Withdrawn,2008-03-22,C-16
+0609,PyPA Governance,67,C,54,Process,Active,2019-11-05,C-17
+0611,The one million limit,68,C,55,Standards Track,Withdrawn,2019-12-05,C-18
+0628,Add math.tau,69,C,56,Standards Track,Final,2011-06-28,C-19
+0648,Extensible customizations of the interpreter at startup,70,C,57,Standards Track,Draft,2020-12-30,C-20
+0651,Robust Stack Overflow Handling,71,C,58,Standards Track,Rejected,2021-01-18,C-21
+0657,Include Fine Grained Error Locations in Tracebacks,72,C,59,Standards Track,Draft,2021-05-08,C-22
+0659,Specializing Adaptive Interpreter,73,C,60,Informational,Draft,2021-04-13,C-23
+0754,IEEE 754 Floating Point Special Values,74,C,61,Standards Track,Rejected,2003-03-28,C-24
+0801,Reserved,75,C,62,Informational,Draft,2018-06-21,C-25
+3123,Making PyObject_HEAD conform to standard C,76,C,63,Standards Track,Final,2007-04-27,C-26
+3125,Remove Backslash Continuation,77,C,64,Standards Track,Rejected,2007-04-29,C-27
+3128,BList A Faster List-like Type,78,C,65,Standards Track,Rejected,2007-04-30,C-28
+3132,Extended Iterable Unpacking,79,C,66,Standards Track,Final,2007-04-30,C-29
+3136,Labeled break and continue,80,C,67,Standards Track,Rejected,2007-06-30,C-61
+3138,String representation in Python 3000,81,B,68,Standards Track,Final,2008-05-05,B-07
+3140,"str(container) should call str(item), not repr(item)",81,B,68,Standards Track,Rejected,2008-05-27,B-07
